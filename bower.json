@@ -1,0 +1,22 @@
+{
+  "name": "campo-de-relampagos",
+  "authors": [
+    "Alejandra Avilés <alehandra.aviles@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gridle": "~2.0.43"
+  }
+}
