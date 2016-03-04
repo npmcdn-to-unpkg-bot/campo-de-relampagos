@@ -1,0 +1,20 @@
+{
+  "name": "campo-de-relampagos",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "sqs server --reload",
+    "sass": "watch \"sassc -I bower_components/gridle/sass sass-styles/app.scss > styles/styles.css && echo '---> $(date +%H:%m:%S) updated styles'\" sass-styles/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alejandra-aviles/campo-de-relampagos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandra-aviles/campo-de-relampagos/issues"
+  },
+  "homepage": "https://github.com/alejandra-aviles/campo-de-relampagos"
+}
