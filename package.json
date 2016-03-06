@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "sqs server --reload",
-    "sass": "watch \"sassc -I bower_components/gridle/sass sass-styles/app.scss > styles/styles.css && echo '---> $(date +%H:%m:%S) updated styles'\" sass-styles/"
+    "sass": "watch \"sassc sass-styles/app.scss > styles/styles.css && echo '---> $(date +%H:%m:%S) updated styles'\" sass-styles/"
   },
   "repository": {
     "type": "git",
