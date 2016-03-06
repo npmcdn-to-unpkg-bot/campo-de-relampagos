@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "server": "sqs server --reload",
-    "sass": "watch \"sassc sass-styles/app.scss > styles/styles.css && echo '---> $(date +%H:%m:%S) updated styles'\" sass-styles/"
+    "sass": "sassc sass-styles/app.scss > styles/styles.css",
+    "watch-sass": "watch \"sassc sass-styles/app.scss > styles/styles.css && echo '---> $(date +%H:%m:%S) updated styles'\" sass-styles/"
   },
   "repository": {
     "type": "git",

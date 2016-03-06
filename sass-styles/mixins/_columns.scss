@@ -1,0 +1,23 @@
+@mixin column-count($count) {
+  -webkit-column-count: $count;
+  -moz-column-count: $count;
+  -o-column-count: $count;
+  -ms-column-count: $count;
+  column-count: $count;
+}
+
+@mixin column-break-inside($mode) {
+  -webkit-column-break-inside: $mode;
+  -moz-column-break-inside: $mode;
+  -o-column-break-inside: $mode;
+  -ms-column-break-inside: $mode;
+  column-break-inside: $mode;
+}
+
+@mixin column-fill($mode) {
+  -webkit-column-fill: $mode;
+  -moz-column-fill: $mode;
+  -o-column-fill: $mode;
+  -ms-column-fill: $mode;
+  column-fill: $mode;
+}
