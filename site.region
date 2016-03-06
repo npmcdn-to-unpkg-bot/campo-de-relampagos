@@ -23,8 +23,8 @@
         <div id="main-nav">
           <a class="home-cr" href="/">Home</a>
           <a class="campo-de-relampagos" href="/campo-de-relampagos">C.R.</a>
-          <a class="watiswriting" href="/watiswriting-index">Whatiswriting</a>
-          <a class="maquinas-de-vision" href="/maquinas-de-vision-index">Máquinas de visión</a>
+          <a class="watiswriting" href="/whatiswriting">Whatiswriting</a>
+          <a class="maquinas-de-vision" href="/maquinas-de-vision">Máquinas de visión</a>
           <a class="comunidad" href="/comunidad">Comunidad</a>
           <div class="media">
             <a class="comunidad" href="/comunidad">BOLETÍN</a>
