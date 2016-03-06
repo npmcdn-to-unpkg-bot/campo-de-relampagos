@@ -1,0 +1,23 @@
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+@import "mixins/_noselect";
+@import "mixins/_group";
+
+@import "_base";
+
+@import "modules/_article";
+@import "modules/_bar";
+@import "modules/_button";
+@import "modules/_columns";
+@import "modules/_comunity-article";
+@import "modules/_footer";
+@import "modules/_item";
+@import "modules/_list";
+@import "modules/_maquinas-de-vision";
+@import "modules/_page-description";
+@import "modules/_section";
+@import "modules/_sidebar-homepage";
+@import "modules/_span";
+@import "modules/_whatishappening";
+
+@import "_layout";

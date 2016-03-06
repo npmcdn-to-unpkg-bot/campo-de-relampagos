@@ -1,0 +1,559 @@
+html {
+  color: #000;
+  background: #FFF; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ''; }
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit; }
+
+input, textarea, select {
+  *font-size: 100%; }
+
+legend {
+  color: #000; }
+
+#yui3-css-stamp.cssreset {
+  display: none; }
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+h1 {
+  font-size: 4.5em; }
+
+h2 {
+  font-size: 3em; }
+
+h3 {
+  font-size: 1.6em;
+  letter-spacing: 0.3px; }
+
+h4 {
+  font-size: 1.1em;
+  font-weight: 600; }
+
+h5 {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  font-family: "acumin-pro"; }
+
+h6 {
+  font-size: 0.8em;
+  letter-spacing: 0.5px; }
+
+p {
+  font-size: 1.1em;
+  letter-spacing: 0.3px; }
+
+em {
+  font-style: italic; }
+
+article {
+  margin-bottom: 60px; }
+  article p {
+    padding-bottom: 30px;
+    font-size: 1.3em;
+    line-height: 30px; }
+  article header {
+    width: 80%;
+    margin-bottom: 40px;
+    margin-top: 24px; }
+    article header h1 {
+      line-height: 1em; }
+
+blockquote {
+  margin: 30px 0 30px 40px;
+  padding-left: 7px; }
+  blockquote h4 {
+    font-family: "acumin-pro";
+    font-size: 1em;
+    letter-spacing: 0.8px; }
+  blockquote cite {
+    font-size: 0.9em;
+    padding-bottom: 20px;
+    color: grey; }
+
+.img-article {
+  padding-top: 20px;
+  padding-bottom: 30px; }
+
+.note {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 80%; }
+  .note h6 {
+    padding-bottom: 8px;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+    font-weight: 500; }
+  .note hr {
+    padding-bottom: 4px;
+    background-color: black;
+    border: none;
+    margin-left: 0;
+    display: block; }
+
+.header {
+  background-color: black;
+  height: 160px;
+  margin-bottom: 70px; }
+
+.bar {
+  z-index: 2000;
+  margin-bottom: 36px;
+  text-transform: uppercase; }
+  .bar a.home-cr {
+    background-image: url("/assets/images/home-icon-black.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -10000px;
+    width: 24px;
+    height: 24px; }
+  .bar #main-nav {
+    border-bottom: 1px solid #DCDCDC; }
+    .bar #main-nav a {
+      display: inline-block;
+      font-size: 0.9em;
+      letter-spacing: 1.5px;
+      font-weight: 600;
+      padding-left: 12px;
+      line-height: 24px; }
+    .bar #main-nav a:hover {
+      color: #FB2A4F; }
+    .bar #main-nav .media {
+      font-size: 0.9em;
+      float: right; }
+      .bar #main-nav .media a {
+        padding-left: 12px;
+        display: inline-block; }
+      .bar #main-nav .media a:hover {
+        color: #FB2A4F; }
+  .bar .festin-canibal {
+    float: right; }
+
+.button {
+  font-family: "acumin-pro";
+  background-color: #EEFFAA;
+  padding: 12px;
+  letter-spacing: 1px;
+  display: inline-block; }
+
+.button:hover {
+  background-color: #DCFF52; }
+
+.button-year {
+  border-bottom: 1px solid #E6E6E6;
+  padding: 12px;
+  display: block; }
+
+.button-year:hover {
+  background-color: #E6E6E6; }
+
+.columns {
+  zoom: 1; }
+  .columns:before {
+    content: '';
+    display: block; }
+  .columns:after {
+    content: '';
+    display: table;
+    clear: both; }
+
+.col {
+  float: left; }
+
+.col-1 {
+  width: 8.33; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-12 {
+  width: 100%; }
+
+.comunity-article {
+  padding-right: 36px; }
+  .comunity-article header {
+    padding-left: 48px;
+    margin-bottom: 24px; }
+  .comunity-article header {
+    width: 60%; }
+  .comunity-article h2 {
+    font-size: 2em;
+    font-weight: 600; }
+  .comunity-article p {
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    padding-bottom: 24px; }
+
+.smallprint {
+  font-family: "acumin-pro";
+  margin-top: 150px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center; }
+  .smallprint h6 {
+    font-size: 0.5em;
+    letter-spacing: 1px; }
+
+.item {
+  margin-right: 6px;
+  margin-bottom: 6px;
+  display: block; }
+  .item h1 {
+    font-size: 1.4em;
+    font-weight: 600;
+    letter-spacing: 0.5px; }
+  .item h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.5px; }
+  .item p {
+    font-family: "acumin-pro";
+    font-size: 0.9em;
+    letter-spacing: 0.9px;
+    line-height: 20px; }
+  .item header {
+    padding-bottom: 12px;
+    padding-top: 6px; }
+
+.item-medium {
+  display: block;
+  border-bottom: 1px solid white; }
+  .item-medium h1 {
+    font-size: 1.4em;
+    line-height: 1em;
+    font-weight: 600;
+    letter-spacing: 0.2px; }
+  .item-medium h2 {
+    font-size: 1.2em;
+    letter-spacing: 0.6px; }
+  .item-medium p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    letter-spacing: 0.9px;
+    font-family: "acumin-pro"; }
+  .item-medium header {
+    padding-bottom: 12px;
+    padding-top: 6px; }
+
+.item-small {
+  background-color: #F7F9FD;
+  display: block;
+  color: #969696;
+  margin-bottom: 24px; }
+  .item-small h1 {
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700; }
+  .item-small h2 {
+    font-size: 0.9em;
+    letter-spacing: 0.7px;
+    padding-bottom: 10px; }
+  .item-small h6 {
+    font-family: "acumin-pro";
+    padding-bottom: 5px; }
+  .item-small .item-info {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px; }
+
+.item-info {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px; }
+
+.item:hover {
+  background-color: #EFF2F7; }
+
+.item-medium:hover {
+  background-color: #EFF2F7;
+  border-bottom: 1px solid #FF778F; }
+
+.item-small:hover {
+  background-color: #EFF2F7;
+  color: black; }
+
+body.maquinas-de-vision-index, body.maquinas-de-vision {
+  background-color: #171717;
+  color: #CCBDBD; }
+  body.maquinas-de-vision-index .bar a.home-cr, body.maquinas-de-vision .bar a.home-cr {
+    background-image: url("/images/home-icon-white.png"); }
+  body.maquinas-de-vision-index .bar #main-nav a, body.maquinas-de-vision .bar #main-nav a {
+    color: #ECE6E6; }
+  body.maquinas-de-vision-index .bar #main-nav a:hover, body.maquinas-de-vision .bar #main-nav a:hover {
+    color: #FF778F; }
+  body.maquinas-de-vision-index .item-medium, body.maquinas-de-vision .item-medium {
+    border-bottom: none;
+    font-family: "acumin-pro";
+    background-color: black;
+    color: #B1B1B1;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    display: block; }
+    body.maquinas-de-vision-index .item-medium h4, body.maquinas-de-vision .item-medium h4 {
+      font-size: 0.8em;
+      font-weight: 400;
+      letter-spacing: 1.5px; }
+    body.maquinas-de-vision-index .item-medium h6, body.maquinas-de-vision .item-medium h6 {
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 0.7em; }
+  body.maquinas-de-vision-index .item-medium:hover, body.maquinas-de-vision .item-medium:hover {
+    background-color: #292929;
+    color: white; }
+  body.maquinas-de-vision-index .button-newsletter, body.maquinas-de-vision .button-newsletter {
+    border-bottom: 2px solid #191919; }
+  body.maquinas-de-vision-index .button-newsletter:hover, body.maquinas-de-vision .button-newsletter:hover {
+    background-color: #272727; }
+  body.maquinas-de-vision-index .button, body.maquinas-de-vision .button {
+    background-color: #151515; }
+  body.maquinas-de-vision-index .page-description, body.maquinas-de-vision .page-description {
+    color: #B1B1B1; }
+    body.maquinas-de-vision-index .page-description .section-search, body.maquinas-de-vision .page-description .section-search {
+      border: 1px solid #3C3C3C; }
+  body.maquinas-de-vision-index .video-article, body.maquinas-de-vision .video-article {
+    color: #ECE6E6; }
+    body.maquinas-de-vision-index .video-article h5, body.maquinas-de-vision .video-article h5 {
+      font-family: "acumin-pro";
+      font-size: 0.7em;
+      line-height: 2.5em;
+      text-transform: uppercase;
+      letter-spacing: 3px; }
+    body.maquinas-de-vision-index .video-article p, body.maquinas-de-vision .video-article p {
+      font-family: "acumin-pro";
+      font-weight: 100;
+      font-size: 1.1em;
+      letter-spacing: 1.3px;
+      line-height: 30px;
+      font-weight: 300; }
+    body.maquinas-de-vision-index .video-article header, body.maquinas-de-vision .video-article header {
+      padding-bottom: 70px;
+      padding-top: 20px; }
+  body.maquinas-de-vision-index .smallprint, body.maquinas-de-vision .smallprint {
+    color: #696969; }
+  body.maquinas-de-vision-index .section-indexdate, body.maquinas-de-vision .section-indexdate {
+    color: #B1B1B1;
+    border-bottom: 1px solid #3C3C3C; }
+  body.maquinas-de-vision-index .button-year, body.maquinas-de-vision .button-year {
+    color: #3C3C3C;
+    border-bottom: 1px solid #3C3C3C; }
+  body.maquinas-de-vision-index .button-year:hover, body.maquinas-de-vision .button-year:hover {
+    color: #B1B1B1;
+    background-color: #212121; }
+
+.page-description {
+  font-family: "acumin-pro";
+  padding-left: 24px;
+  color: #272727; }
+  .page-description p {
+    font-size: 0.8em;
+    letter-spacing: 1px; }
+  .page-description .section-search {
+    border-radius: 20px;
+    border: 1px solid #E6E6E6;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    color: #BEBFBF;
+    margin-top: 12px;
+    margin-bottom: 12px; }
+    .page-description .section-search h6 {
+      letter-spacing: 2px; }
+
+section {
+  zoom: 1;
+  padding-bottom: 80px; }
+  section:before {
+    content: '';
+    display: block; }
+  section:after {
+    content: '';
+    display: table;
+    clear: both; }
+
+section.section-cr {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  border-bottom: 1px solid #E6E6E6; }
+  section.section-cr p {
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    padding-bottom: 24px; }
+  section.section-cr h3 {
+    line-height: 38px; }
+
+.section-indexdate {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #E6E6E6; }
+  .section-indexdate h3 {
+    letter-spacing: 2px; }
+
+.contacto {
+  padding-bottom: 30px; }
+
+.moon {
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 12px; }
+
+.phrase {
+  text-align: center;
+  padding-bottom: 20px; }
+  .phrase h6 {
+    font-size: 1em;
+    letter-spacing: 2px; }
+  .phrase h3 {
+    font-size: 1.2em;
+    letter-spacing: 0.6px; }
+
+.slogan {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-bottom: 1px solid #D6D6D6; }
+  .slogan h3 {
+    font-size: 1.5sem; }
+
+.social-media {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center; }
+  .social-media li {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 2em;
+    display: inline-block; }
+
+.publicity {
+  padding: 20px; }
+
+.logo-artium {
+  width: 200px; }
+
+span {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: "acumin-pro";
+  line-height: 24px; }
+
+.whatishappening {
+  padding-left: 100px; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  color: black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  font-family: "adobe-garamond-pro"; }
+  body a {
+    color: black;
+    text-decoration: none; }
+  body ::selection {
+    background-color: #D1E2FF;
+    color: #FF5674; }
+
+main {
+  zoom: 1;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto; }
+  main:before {
+    content: '';
+    display: block; }
+  main:after {
+    content: '';
+    display: table;
+    clear: both; }
+
+.cdr-container {
+  zoom: 1;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto; }
+  .cdr-container:before {
+    content: '';
+    display: block; }
+  .cdr-container:after {
+    content: '';
+    display: table;
+    clear: both; }
+
+img {
+  width: 100%;
+  display: block; }

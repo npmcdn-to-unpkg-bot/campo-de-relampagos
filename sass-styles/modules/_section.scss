@@ -1,0 +1,30 @@
+section {
+	@include group;
+	padding-bottom: 80px;
+}
+
+section.section-cr {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	border-bottom: 1px solid #E6E6E6;
+
+	p {
+		line-height: 24px;
+		letter-spacing: 0.5px;
+		padding-bottom: 24px;
+	}
+
+	h3 { line-height: 38px; }
+}
+
+
+.section-indexdate {
+	margin-top: 24px;
+	margin-bottom: 24px;
+	border-bottom: 1px solid #E6E6E6;
+	h3 { letter-spacing: 2px; }
+
+}
+.contacto {
+	padding-bottom: 30px;
+}
