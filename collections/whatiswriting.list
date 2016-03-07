@@ -37,12 +37,12 @@
   <h3>2016</h3>
 </div>
 
-<div class="items">
+<div class="items masonry-grid">
   {.repeated section items}
     {.equal? @index 1}
       <!-- skip first item -->
     {.or}
-      <a class="item-medium" href="{fullUrl}">
+      <a class="item-medium masonry-item" href="{fullUrl}">
         <div class="item-info">
           <header>
             <span>{addedOn|date %F}</span><h1>{title}</h1><h2>{author.displayName}</h2>

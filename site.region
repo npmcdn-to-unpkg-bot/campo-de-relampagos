@@ -10,6 +10,7 @@
     <script src="https://use.typekit.net/kvj7pet.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     {squarespace-headers}
+    <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
 <!--     <link rel="stylesheet" href="http://basehold.it/24">-->
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
@@ -46,6 +47,7 @@
         <h6>Logotipo Aitor Méndez. Web Alejandra Avilés. Campo de relámpagos a.C. (cc) 2016-2020.</h6>
       </div>
     </main>
-    <%= javascript_include_tag  "application" %>
+
+    <script src="/assets/javascripts/site.js"></script>
   </body>
 </html>

@@ -1,12 +1,9 @@
 .items {
-	@include column-count(3);
-	@include column-fill(balanced);
-
 	overflow: hidden;
 	clear: both;
 
 	.item-medium {
-		@include column-break-inside(avoid);
+		width: 33.333%;
 	}
 }
 
