@@ -334,7 +334,8 @@ blockquote {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 24px;
-  padding-bottom: 24px; }
+  padding-bottom: 24px;
+  z-index: 2000; }
   .item-info p span {
     font-size: inherit !important;
     text-transform: inherit;
@@ -354,71 +355,85 @@ blockquote {
   background-color: #EFF2F7;
   color: black; }
 
-body.maquinas-de-vision-index, body.maquinas-de-vision {
+body.collection-type-maquinas-de-vision {
   background-color: #171717;
   color: #CCBDBD; }
-  body.maquinas-de-vision-index .bar a.home-cr, body.maquinas-de-vision .bar a.home-cr {
+  body.collection-type-maquinas-de-vision .bar a.home-cr {
     background-image: url("/images/home-icon-white.png"); }
-  body.maquinas-de-vision-index .bar #main-nav a, body.maquinas-de-vision .bar #main-nav a {
-    color: #ECE6E6; }
-  body.maquinas-de-vision-index .bar #main-nav a:hover, body.maquinas-de-vision .bar #main-nav a:hover {
-    color: #FF778F; }
-  body.maquinas-de-vision-index .item-medium, body.maquinas-de-vision .item-medium {
+  body.collection-type-maquinas-de-vision .bar #main-nav {
+    border-bottom: 1px solid #3C3C3C; }
+    body.collection-type-maquinas-de-vision .bar #main-nav a {
+      color: #ECE6E6; }
+    body.collection-type-maquinas-de-vision .bar #main-nav a:hover {
+      color: #FF778F; }
+  body.collection-type-maquinas-de-vision .item-medium {
     border-bottom: none;
     font-family: "acumin-pro";
     background-color: black;
     color: #B1B1B1;
-    margin-right: 6px;
+    margin-right: 0px;
     margin-bottom: 6px;
     display: block; }
-    body.maquinas-de-vision-index .item-medium h4, body.maquinas-de-vision .item-medium h4 {
+    body.collection-type-maquinas-de-vision .item-medium h1 {
       font-size: 0.8em;
       font-weight: 400;
       letter-spacing: 1.5px; }
-    body.maquinas-de-vision-index .item-medium h6, body.maquinas-de-vision .item-medium h6 {
+    body.collection-type-maquinas-de-vision .item-medium h2 {
       text-transform: uppercase;
       letter-spacing: 3px;
       font-size: 0.7em; }
-  body.maquinas-de-vision-index .item-medium:hover, body.maquinas-de-vision .item-medium:hover {
+  body.collection-type-maquinas-de-vision .masonry-item {
+    width: 329px; }
+  body.collection-type-maquinas-de-vision .item-medium:hover {
     background-color: #292929;
     color: white; }
-  body.maquinas-de-vision-index .button-newsletter, body.maquinas-de-vision .button-newsletter {
+    body.collection-type-maquinas-de-vision .item-medium:hover .cover-wrapper {
+      position: relative; }
+      body.collection-type-maquinas-de-vision .item-medium:hover .cover-wrapper .cover {
+        z-index: 1000;
+        background: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0; }
+  body.collection-type-maquinas-de-vision .button-newsletter {
     border-bottom: 2px solid #191919; }
-  body.maquinas-de-vision-index .button-newsletter:hover, body.maquinas-de-vision .button-newsletter:hover {
+  body.collection-type-maquinas-de-vision .button-newsletter:hover {
     background-color: #272727; }
-  body.maquinas-de-vision-index .button, body.maquinas-de-vision .button {
+  body.collection-type-maquinas-de-vision .button {
     background-color: #151515; }
-  body.maquinas-de-vision-index .page-description, body.maquinas-de-vision .page-description {
+  body.collection-type-maquinas-de-vision .page-description {
     color: #B1B1B1; }
-    body.maquinas-de-vision-index .page-description .section-search, body.maquinas-de-vision .page-description .section-search {
+    body.collection-type-maquinas-de-vision .page-description .section-search {
       border: 1px solid #3C3C3C; }
-  body.maquinas-de-vision-index .video-article, body.maquinas-de-vision .video-article {
+  body.collection-type-maquinas-de-vision .video-article {
     color: #ECE6E6; }
-    body.maquinas-de-vision-index .video-article h5, body.maquinas-de-vision .video-article h5 {
+    body.collection-type-maquinas-de-vision .video-article h5 {
       font-family: "acumin-pro";
       font-size: 0.7em;
       line-height: 2.5em;
       text-transform: uppercase;
       letter-spacing: 3px; }
-    body.maquinas-de-vision-index .video-article p, body.maquinas-de-vision .video-article p {
+    body.collection-type-maquinas-de-vision .video-article p {
       font-family: "acumin-pro";
       font-weight: 100;
       font-size: 1.1em;
       letter-spacing: 1.3px;
       line-height: 30px;
       font-weight: 300; }
-    body.maquinas-de-vision-index .video-article header, body.maquinas-de-vision .video-article header {
+    body.collection-type-maquinas-de-vision .video-article header {
       padding-bottom: 70px;
       padding-top: 20px; }
-  body.maquinas-de-vision-index .smallprint, body.maquinas-de-vision .smallprint {
+  body.collection-type-maquinas-de-vision .smallprint {
     color: #696969; }
-  body.maquinas-de-vision-index .section-indexdate, body.maquinas-de-vision .section-indexdate {
+  body.collection-type-maquinas-de-vision .section-indexdate {
     color: #B1B1B1;
     border-bottom: 1px solid #3C3C3C; }
-  body.maquinas-de-vision-index .button-year, body.maquinas-de-vision .button-year {
+  body.collection-type-maquinas-de-vision .button-year {
     color: #3C3C3C;
     border-bottom: 1px solid #3C3C3C; }
-  body.maquinas-de-vision-index .button-year:hover, body.maquinas-de-vision .button-year:hover {
+  body.collection-type-maquinas-de-vision .button-year:hover {
     color: #B1B1B1;
     background-color: #212121; }
 
@@ -538,8 +553,8 @@ body {
     color: black;
     text-decoration: none; }
   body ::selection {
-    background-color: #D1E2FF;
-    color: #FF5674; }
+    background-color: #7FA4E2;
+    color: #FFB5C2; }
 
 main {
   zoom: 1;

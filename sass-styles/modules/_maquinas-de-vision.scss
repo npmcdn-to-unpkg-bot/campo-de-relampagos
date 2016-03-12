@@ -1,4 +1,4 @@
-body.maquinas-de-vision-index, body.maquinas-de-vision  {
+body.collection-type-maquinas-de-vision {
     background-color: #171717;
     color: #CCBDBD;
     .bar {
@@ -6,6 +6,7 @@ body.maquinas-de-vision-index, body.maquinas-de-vision  {
       background-image: url("/images/home-icon-white.png");
       }
       #main-nav {
+        border-bottom: 1px solid #3C3C3C;
         a { color: #ECE6E6; }
         a:hover { color: #FF778F; } 
       }
@@ -16,13 +17,30 @@ body.maquinas-de-vision-index, body.maquinas-de-vision  {
       font-family:"acumin-pro";
       background-color: black;
       color: #B1B1B1;
-      margin-right: 6px;
+      margin-right: 0px;
       margin-bottom: 6px;
       display: block;
-      h4 {font-size: 0.8em;font-weight: 400; letter-spacing: 1.5px;}
-      h6 {text-transform: uppercase;letter-spacing: 3px; font-size: 0.7em; }
+      h1 {font-size: 0.8em;font-weight: 400; letter-spacing: 1.5px;}
+      h2 {text-transform: uppercase;letter-spacing: 3px; font-size: 0.7em; }
     }
-    .item-medium:hover { background-color: #292929; color: white; }
+
+    .masonry-item { width: 329px; }
+    .item-medium:hover { 
+      background-color: #292929; 
+      color: white; 
+      .cover-wrapper {
+        position: relative;
+        .cover {
+          z-index: 1000;
+          background: rgba(0,0,0,0.3);
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+        }
+      }
+    }
     .button-newsletter { border-bottom: 2px solid #191919; }
     .button-newsletter:hover { background-color: #272727; }
     .button {background-color: #151515;}

@@ -5,6 +5,11 @@
 
   <article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
 
+
+    <!--MAIN CONTENT-->
+
+    {body}
+
     <!--POST TILE-->
 
     <h1 class="title" data-content-field="title">
@@ -14,11 +19,6 @@
         <a href="{fullUrl}">{title}</a>
       {.end}
     </h1>
-
-    <!--MAIN CONTENT-->
-
-    {body}
-
     <!--BLOG INJECTION-->
 
     {postItemInjectCode}
