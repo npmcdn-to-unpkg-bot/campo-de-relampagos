@@ -1,0 +1,46 @@
+<h1>Home</h1>
+<squarespace:query collection="maquinas-de-vision" limit="1">
+    {.repeated section items}
+	    <a class="item" href="{fullUrl}">
+	      <div class="item-info">
+          	<span>{addedOn|date %F}</span>
+            <h1>{title}</h1>
+            <h2>{author.displayName}</h2>
+            <img src="{assetUrl}" />
+            <p>{excerpt}</p>
+	        </div>
+	      </div>
+	    </a>
+    {.end}
+</squarespace:query>
+
+<squarespace:query collection="whatiswriting" limit="1">
+    {.repeated section items}
+	    <a class="item" href="{fullUrl}">
+	      <div class="item-info">
+          	<span>{addedOn|date %F}</span>
+            <h1>{title}</h1>
+            <h2>{author.displayName}</h2>
+            <img src="{assetUrl}" />
+            <p>{excerpt}</p>
+	        </div>
+	      </div>
+	    </a>
+    {.end}
+</squarespace:query>
+
+<squarespace:query collection="comunidad" limit="1">
+    {.repeated section items}
+	    <a class="item" href="{fullUrl}">
+	      <div class="item-info">
+          	<span>{addedOn|date %F}</span>
+            <h1>{title}</h1>
+            <h2>{author.displayName}</h2>
+            <img src="{assetUrl}" />
+            <p>{excerpt}</p>
+	        </div>
+	      </div>
+	    </a>
+    {.end}
+</squarespace:query>
+
