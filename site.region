@@ -36,6 +36,11 @@
 
           <div class="media">
             <a class="comunidad" href="/comunidad">BOLETÍN</a>
+            <a href="#" id="search-trigger">Search</a>
+
+            <form id="search" action="/search" method="GET">
+              <input type="text" name="q" />
+            </form>
             <a target="facebook" href="https://www.facebook.com/" ><i class="fa fa-facebook-square"></i></a>
             <a target="twitter" href="https://twitter.com/" ><i class="fa fa-twitter-square"></i></a>
           </div>

@@ -456,6 +456,10 @@ body.collection-type-maquinas-de-vision {
     .page-description .section-search h6 {
       letter-spacing: 2px; }
 
+#search {
+  display: none;
+  position: absolute; }
+
 section {
   zoom: 1;
   padding-bottom: 80px; }

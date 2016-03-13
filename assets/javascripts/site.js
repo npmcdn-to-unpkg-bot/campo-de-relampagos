@@ -6,3 +6,8 @@ $('.masonry-grid-guttered').masonry({
   itemSelector: '.masonry-item',
   gutter: 6
 });
+
+$('#search-trigger').click(function(e) {
+	$('#search').toggle();
+	e.preventDefault();
+});
