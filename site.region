@@ -30,7 +30,6 @@
           <a class="comunidad" href="/comunidad">Comunidad</a>
           <div class="media">
             <a class="comunidad" href="/comunidad">BOLETÍN</a>
-            <a target="instagram" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
             <a target="facebook" href="https://www.facebook.com/" ><i class="fa fa-facebook-square"></i></a>
             <a target="twitter" href="https://twitter.com/" ><i class="fa fa-twitter-square"></i></a>
           </div>
@@ -44,7 +43,6 @@
       </main>
 
       <div class="smallprint">
-        <h5>Campo de Relámpagos, Análisis y Cultura Visual del Presente</h5>
         <h6>Logotipo Aitor Méndez. Web Alejandra Avilés. Campo de relámpagos a.C. (cc) 2016-2020.</h6>
       </div>
     </main>
