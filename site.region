@@ -27,7 +27,13 @@
           <a class="campo-de-relampagos" href="/campo-de-relampagos">C.R.</a>
           <a class="watiswriting" href="/whatiswriting">Whatiswriting</a>
           <a class="maquinas-de-vision" href="/maquinas-de-vision">Máquinas de visión</a>
-          <a class="comunidad" href="/comunidad">Comunidad</a>
+
+          <squarespace:query collection="comunidad" limit="1">
+            {.repeated section items}
+              <a class="comunidad" href="{fullUrl}">Comunidad</a>
+            {.end}
+          </squarespace:query>
+
           <div class="media">
             <a class="comunidad" href="/comunidad">BOLETÍN</a>
             <a target="facebook" href="https://www.facebook.com/" ><i class="fa fa-facebook-square"></i></a>
