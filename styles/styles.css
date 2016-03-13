@@ -375,16 +375,16 @@ body.collection-type-maquinas-de-vision {
     margin-bottom: 6px;
     display: block; }
     body.collection-type-maquinas-de-vision .item-medium h1 {
-      font-size: 0.8em;
+      font-size: 0.9em;
       font-weight: 400;
       letter-spacing: 1.5px; }
     body.collection-type-maquinas-de-vision .item-medium h2 {
-      text-transform: uppercase;
       letter-spacing: 3px;
       font-size: 0.7em; }
   body.collection-type-maquinas-de-vision .masonry-item {
     width: 329px; }
   body.collection-type-maquinas-de-vision .item-medium:hover {
+    cursor: pointer;
     background-color: #292929;
     color: white; }
     body.collection-type-maquinas-de-vision .item-medium:hover .cover-wrapper {

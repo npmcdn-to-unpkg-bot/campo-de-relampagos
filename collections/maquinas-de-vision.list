@@ -49,10 +49,11 @@
           <div class="cover">
           </div>
         </div>
-      
         <div class="item-info">
           <header>
-            <span>{addedOn|date %F}</span><h1>{title}</h1><h2>{author.displayName}</h2>
+            <h1>{title}</h1>
+            <h2>{author.displayName}</h2>
+            <span>{addedOn|date %F}</span>
           </header>
         </div>
       </a>
