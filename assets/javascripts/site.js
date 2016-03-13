@@ -11,3 +11,5 @@ $('#search-trigger').click(function(e) {
 	$('#search').toggle();
 	e.preventDefault();
 });
+
+$('.sticky').sticky({ topSpacing: 0 });

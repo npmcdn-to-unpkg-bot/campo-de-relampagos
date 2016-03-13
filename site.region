@@ -11,6 +11,7 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <link rel="stylesheet" href="http://localhost:3002/styles/styles.css">
     {squarespace-headers}
+    <script src="/assets/javascripts/jquery.sticky.js"></script>
     <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
 <!--     <link rel="stylesheet" href="http://basehold.it/24">-->
   </head>
@@ -20,7 +21,7 @@
         <a href="/"><img style="width: 1000px" src="/assets/images/logotipo.png" /></a>
       </div>
     </div>
-    <div class="bar">
+    <div class="bar sticky">
       <div class="cdr-container">
         <div id="main-nav">
           <a class="home-cr" href="/">Home</a>
