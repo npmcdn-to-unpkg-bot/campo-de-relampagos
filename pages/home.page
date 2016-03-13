@@ -44,3 +44,16 @@
     {.end}
 </squarespace:query>
 
+<squarespace:query collection="whatishappening" limit="1">
+    {.repeated section items}
+	    <a class="item" href="{fullUrl}">
+	      <div class="item-info">
+          	<span>{addedOn|date %F}</span>
+            <h1>{title}</h1>
+            <h2>{author.displayName}</h2>
+            <p>{body}</p>
+	        </div>
+	      </div>
+	    </a>
+    {.end}
+</squarespace:query>
