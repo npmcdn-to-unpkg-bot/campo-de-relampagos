@@ -1,59 +1,75 @@
-<h1>Home</h1>
-<squarespace:query collection="maquinas-de-vision" limit="1">
-    {.repeated section items}
-	    <a class="item" href="{fullUrl}">
-	      <div class="item-info">
-          	<span>{addedOn|date %F}</span>
-            <h1>{title}</h1>
-            <h2>{author.displayName}</h2>
-            <img src="{assetUrl}" />
-            <p>{excerpt}</p>
-	        </div>
-	      </div>
-	    </a>
-    {.end}
-</squarespace:query>
+<section>
+	<div class="columns">
+		<div class="col col-10">
+			<div class="columns">
+				<div class="col col-6">
+					<squarespace:query collection="maquinas-de-vision" limit="1">
+					    {.repeated section items}
+						    <a class="item" href="{fullUrl}">
+				            <img src="{assetUrl}" />
+						      <div class="item-info">
+					          	<span>{addedOn|date %F}</span>
+					            <h1>{title}</h1>
+					            <h2>{author.displayName}</h2>
+					            <p>{excerpt}</p>
+						      </div>
+						    </a>
+					    {.end}
+					</squarespace:query>		
+				</div>
+				<div class="col col-6">
+					<squarespace:query collection="comunidad" limit="1">
+					    {.repeated section items}
+						    <a class="item" href="{fullUrl}">
+				            <img src="{assetUrl}" />
+						      <div class="item-info">
+					          	<span>{addedOn|date %F}</span>
+					            <h1>{title}</h1>
+					            <h2>{author.displayName}</h2>
+					            <p>{excerpt}</p>
+						      </div>
+						    </a>
+					    {.end}
+					</squarespace:query>
+				</div>
+			</div>
+		</div>
+		<div class="col col-2">
+			<img src="http://api.usno.navy.mil/imagery/moon.png" />
+			<div class="publicity">
+				<a target="artium" href="http://www.artium.org/"><img src="http://www.artium.org/templates/favourite/images/logo/logotipo-artium.png" ></a>
+			</div>
+		</div>
+	</div>
+</section>
 
-<squarespace:query collection="whatiswriting" limit="1">
-    {.repeated section items}
-	    <a class="item" href="{fullUrl}">
-	      <div class="item-info">
-          	<span>{addedOn|date %F}</span>
-            <h1>{title}</h1>
-            <h2>{author.displayName}</h2>
-            <img src="{assetUrl}" />
-            <p>{excerpt}</p>
-	        </div>
-	      </div>
-	    </a>
-    {.end}
-</squarespace:query>
+				<squarespace:query collection="whatiswriting" limit="1">
+				    {.repeated section items}
+					    <a class="item" href="{fullUrl}">
+			            <img src="{assetUrl}" />
+					      <div class="item-info">
+				          	<span>{addedOn|date %F}</span>
+				            <h1>{title}</h1>
+				            <h2>{author.displayName}</h2>
+				            <p>{excerpt}</p>
+					       </div>
+					    </a>
+				    {.end}
+				</squarespace:query>
 
-<squarespace:query collection="comunidad" limit="1">
-    {.repeated section items}
-	    <a class="item" href="{fullUrl}">
-	      <div class="item-info">
-          	<span>{addedOn|date %F}</span>
-            <h1>{title}</h1>
-            <h2>{author.displayName}</h2>
-            <img src="{assetUrl}" />
-            <p>{excerpt}</p>
-	        </div>
-	      </div>
-	    </a>
-    {.end}
-</squarespace:query>
 
-<squarespace:query collection="whatishappening" limit="1">
-    {.repeated section items}
-	    <a class="item" href="{fullUrl}">
-	      <div class="item-info">
-          	<span>{addedOn|date %F}</span>
-            <h1>{title}</h1>
-            <h2>{author.displayName}</h2>
-            <p>{body}</p>
-	        </div>
-	      </div>
-	    </a>
-    {.end}
-</squarespace:query>
+
+				<squarespace:query collection="whatishappening" limit="1">
+				    {.repeated section items}
+					    <a class="item" href="{fullUrl}">
+			            <p>{body}</p>
+					      <div class="item-info">
+				          	<span>{addedOn|date %F}</span>
+				            <h1>{title}</h1>
+				            <h2>{author.displayName}</h2>
+					        </div>
+					      </div>
+					    </a>
+				    {.end}
+				</squarespace:query>
+

@@ -42,7 +42,9 @@
 			<h5>PATROCINIO</h5>
 		</div>
 		<div class="col col-9">
-			<a target="artium" href="http://www.artium.org/"><img class="logo-artium" src="/images/logotipo-artium.png" ></a>
+			<div class="artium-small">
+				<a target="artium" href="http://www.artium.org/"><img src="http://www.artium.org/templates/favourite/images/logo/logotipo-artium.png" ></a>
+			</div>
 			<p>Artium es nuestro patrocinador como museo y centro de actividades culturales, una referencia por su labor patrimonial y difusora en el ámbito de la creación actual. Inaugurado el 26 de abril de 2002, ha desarrollado desde entonces un ambicioso programa de exposiciones -individuales y de tesis, con una destacada presencia de artistas de rango internacional-, así como una intensa agenda de actividades culturales vinculadas a la cultura contemporánea –cine, música, conferencias, cursos, seminarios, artes escénicas…-, a la educación y a la difusión del arte actual. La historia de Artium, sin embargo, se remonta al último cuarto del pasado siglo. A mediados de los años 70, la Diputación Foral de Álava da los primeros pasos para constituir lo que hoy es la Colección Artium.</p>
 		</div>
 	</div>
@@ -54,29 +56,26 @@
 		</div>
 		<div class="col col-9">
 			<h3>Editor Maria Virgina Jaua</h3>
-			<!-- <h3>maria@cr.com</h3> -->
 			<h3>Web Alejandra Avilés</h3>
-			<!-- <h3>soporte@cr.com</h3> -->
 			<h3>Logotipo Aitor Méndez</h3>
-			<!-- <h3>aitor@245.com</h3> -->
 		</div>
 	</div>	
 </section>
 <section class="section-cr">
 	<div class="columns">
 		<div class="col col-3">
-			<h5>PROTOCOLO DE<br>PUBLICACIÓN</h5>	
+			<h5>PROTOCOLO DE PUBLICACIÓN<br>DE COLABORACIONES Y COMENTARIOS</h5>	
 		</div>
 		<div class="col col-9">
-			<p>En aras de favorecer y suscitar el debate crítico en estas páginas, hacemos público un protocolo de normas –una suerte de netiquette extendida- que regulará en adelante la publicación de colaboraciones y comentarios en estas páginas.</p>
-			<p>Es una revista de crítica cultural, y como tal un espacio editado, no primariamente un “foro”. Por lo tanto, los contenidos que se publican en su espacio responden y traslucen el criterio de un equipo de redacción, siendo en última instancia éste el que decide sobre ellos. No obstante, y en general, ::salonKritik:: está abierto a publicar cuantas colaboraciones o comentarios reciba, siempre y cuando cumplan las siguientes condiciones:</p>
-			<p>1. Las colaboraciones y comentarios han de ir firmados por sus autores. Entendemos que las opiniones que se expresan en un espacio público comportan una responsabilidad ante los lectores y la propia opinión pública, que su autor debe asumir mediante la firma. Nuestro equipo de redacción se reserva el derecho a hacer las comprobaciones que estime necesarias para asegurarse de que las colaboraciones enviadas corresponden a la firma que las avala.</p>
-			<p>2. El objeto principal de un espacio público de debate es la discusión de las ideas, y su método ha de ser siempre y únicamente la exposición del pensamiento y su apertura al juego conversacional-agonístico, mediante la libre confrontación de las argumentaciones.</p>
-			<p>3. En ese sentido, entendemos que el tono insultante y/o la descalificación personal devalúan la misma calidad del debate de ideas y argumentos. Invitamos por tanto a quienes nos envían sus colaboraciones o comentarios a evitar cualquier tono o alusión que atente contra el reconocimiento del otro en su plena integridad moral como legítimo diferente, en ejercicio de su pleno derecho a pensar diferente. Es la confrontación de la diferencia en el pensamiento, en el respeto al disentimiento mutuo, lo que da su maximo alcance y sentido a una esfera pública participativa.</p>
-			<p>4. Desde nuestro punto de vista es imprescindible abrir el espacio de la crítica cultural a la multiplicidad de las voces en su diferencia, sin por ello aceptar que el debate desemboque en una algarabía neutralizadora que a la larga resulte en la banalización por ruido o ensuciamiento de (todas) las ideas y (todos) los argumentos.</p>
-			<p>5. busca asumir en ese sentido un doble compromiso: de una parte con la seriedad, el rigor, el compromiso y la creatividad en la exposición y defensa de las ideas; de la otra, y al mismo tiempo, con la participación y que ésta se produzca en un marco de respeto a la diversidad cultural y crítica, desde la práctica del disentimiento, sujeto en el respeto a la cortesía requerida para el diálogo público.</p>
-			<p>Este doble compromiso constituye, en nuestra opinión, el principal y mejor fundamento para la construcción colectiva del discurso crítico contemporáneo en la esfera pública de la web social. Desde esta pequeña enumeración de principios, invitamos muy encarecidamente a todos nuestros lectores y seguidores a participar activamente mediante el envío de sus colaboraciones o comentarios.</p>
-
+			<p>En aras de favorecer y suscitar el debate crítico en estas páginas, hacemos público un protocolo  –una suerte de <a href="https://es.wikipedia.org/wiki/Netiqueta">nettiquette</a> extendida que regula  la publicación de colaboraciones y comentarios en estas páginas.</p>
+			<p>CR es una revista de crítica y análisis cultural y como tal un espacio editado. Por lo tanto, los contenidos que se publican en su espacio responden y traslucen el criterio de un equipo de redacción, siendo en última instancia la exigencia del mismo, el que decide sobre ellos. No obstante, y en general, está abierto a publicar cuantas colaboraciones o comentarios reciba, siempre y cuando cumplan las siguientes condiciones:</p>
+			<p>1. Las colaboraciones y comentarios han de ir firmados por sus autores. Entendemos que las opiniones que se expresan en un espacio público comportan una responsabilidad ante los lectores y la propia opinión pública, que su autor debe asumir mediante la firma. Nos reservamos el derecho a hacer las comprobaciones que se estimen necesarias para asegurarse de que las colaboraciones enviadas corresponden a la firma que las avala.</p>
+			<p>2. El objeto principal de un espacio público de debate es la discusión de las ideas, y su método ha de ser siempre y únicamente la exposición clara del pensamiento desplegada en el juego de la libre confrontación de las argumentaciones.</p>
+			<p>3. En ese sentido, entendemos que el tono insultante y la descalificación personal del otro devalúan la misma calidad del debate de ideas y argumentos. Invitamos por tanto a quienes nos envían sus colaboraciones o comentarios a evitar cualquier tono o alusión que atente contra el reconocimiento del otro en su plena integridad moral como legítimo diferente, en ejercicio de su pleno derecho a pensar diferente. Es la confrontación de la diferencia en el pensamiento, en el respeto al disentimiento mutuo, lo que da sentido a una esfera pública participativa.</p>
+			<p>4. Es imprescindible abrir el espacio de la crítica cultural a la multiplicidad de las voces en su diferencia, sin por ello aceptar que el debate desemboque en una algarabía neutralizadora que a la larga resulte en la banalización de las ideas y los argumentos.</p>
+			<p>CR busca asumir en ese sentido un doble compromiso: de una parte con la seriedad, el rigor, el compromiso y la creatividad en la exposición de las ideas; de la otra, y al mismo tiempo, con la participación y que ésta se produzca en un marco de respeto a la diversidad cultural y crítica, desde la práctica del disentimiento, sujeto en el respeto a la cortesía requerida para el diálogo público. </p>
+			<p>Este doble compromiso constituye, en nuestra opinión, el principal y mejor fundamento para la construcción colectiva del discurso crítico contemporáneo en la esfera pública de la web social.</p>
+			<p>Desde esta breve enumeración de principios, invitamos encarecidamente a todos nuestros lectores y seguidores a participar activamente mediante el envío de sus colaboraciones o comentarios.</p>
 		</div>
 	</div>	
 </section>

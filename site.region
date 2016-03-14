@@ -25,7 +25,7 @@
       <div class="cdr-container">
         <div id="main-nav">
           <a class="home-cr" href="/">Home</a>
-          <a class="campo-de-relampagos" href="/campo-de-relampagos">C.R.</a>
+          <a class="campo-de-relampagos" href="/acerca">C.R.</a>
           <a class="watiswriting" href="/whatiswriting">Whatiswriting</a>
           <a class="maquinas-de-vision" href="/maquinas-de-vision">Máquinas de visión</a>
 
@@ -37,8 +37,7 @@
 
           <div class="media">
             <a class="comunidad" href="/comunidad">BOLETÍN</a>
-            <a href="#" id="search-trigger">Search</a>
-
+            <a href="#" id="search-trigger"><i class="fa fa-search"></i></a>
             <form id="search" action="/search" method="GET">
               <input type="text" name="q" />
             </form>
@@ -49,8 +48,6 @@
       </div>
     </div>
     <main>
-      <img src="http://api.usno.navy.mil/imagery/moon.png" />
-      <img src="http://tycho.usno.navy.mil/gif/phase.gif" />
       <!--Content injection point.-->
       <main id="content" class="content" role="main" data-content-field="main-content">
        {squarespace.main-content}
