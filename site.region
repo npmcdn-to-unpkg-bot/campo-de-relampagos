@@ -10,7 +10,6 @@
     <script src="https://use.typekit.net/kvj7pet.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <link rel="stylesheet" href="http://localhost:3002/styles/styles.css">
-    {squarespace-headers}
     <script src="/assets/javascripts/jquery.sticky.js"></script>
     <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
 <!--     <link rel="stylesheet" href="http://basehold.it/24">-->
@@ -25,22 +24,20 @@
       <div class="cdr-container">
         <div id="main-nav">
           <a class="home-cr" href="/">Home</a>
-          <a class="campo-de-relampagos" href="/acerca">C.R.</a>
-          <a class="watiswriting" href="/whatiswriting">Whatiswriting</a>
+          <a class="acerca" href="/acerca">CR</a>
+          <a class="whatiswriting" href="/whatiswriting">Whatiswriting</a>
           <a class="maquinas-de-vision" href="/maquinas-de-vision">Máquinas de visión</a>
-
           <squarespace:query collection="comunidad" limit="1">
             {.repeated section items}
               <a class="comunidad" href="{fullUrl}">Comunidad</a>
             {.end}
           </squarespace:query>
-
           <div class="media">
-            <a class="comunidad" href="/comunidad">BOLETÍN</a>
-            <a href="#" id="search-trigger"><i class="fa fa-search"></i></a>
+            <a class="boletin" href="/">BOLETÍN</a>
+            <!-- <a href="#" id="search-trigger"><i class="fa fa-search"></i></a>
             <form id="search" action="/search" method="GET">
               <input type="text" name="q" />
-            </form>
+            </form> -->
             <a target="facebook" href="https://www.facebook.com/" ><i class="fa fa-facebook-square"></i></a>
             <a target="twitter" href="https://twitter.com/" ><i class="fa fa-twitter-square"></i></a>
           </div>

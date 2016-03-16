@@ -3,20 +3,17 @@
     {.repeated section items}
       {.equal? @index 1}
         <a class="item-medium" href="{fullUrl}">
-          <div class="item-info">
-              <span>{addedOn|date %F}</span>
-              <header>
-                <h1>{title}</h1>
-                <h2>{author.displayName}</h2>
-              </header>
-            <div class="columns">
-              <div class="col col-3">
-                <img src="{assetUrl}" />
-              </div>
-              <div class="col col-9">
-                <p>{excerpt}</p>
-              </div>
+          <div class="cover-wrapper">
+            <img src="{assetUrl}" />
+            <div class="cover">
             </div>
+          </div>
+          <div class="item-info">
+            <header>
+              <h1>{title}</h1>
+              <h2>{author.displayName}</h2>
+              <span>{addedOn|date %F}</span>
+            </header>
           </div>
         </a>
       {.end}
@@ -25,9 +22,6 @@
   <div class="col col-3">
     <div class="page-description">
       <span><i class="fa fa-paragraph"></i> Máquinas de visión</span>
-      <div class="section-search">
-        <h6><i class="fa fa-search"></i><em> Buscar</em></h6>
-      </div>
       <p>Este apartado corresponde a una sección “curada” en la que se muestran obras audiovisuales y con la que se pretende activar el dispositivo propio de las imágenes de nuestro tiempo. Se trata de un espacio de difusión y de reflexión para las imágenes en movimiento, las cuales por sus condiciones técnicas son las que mejor podemos “reproducir” y por lo tanto proponer a los lectores, manteniendo cierta fidelidad.</p>
     </div>
   </div>
@@ -43,7 +37,6 @@
       <!-- skip first item -->
     {.or}
       <a class="item-medium masonry-item" href="{fullUrl}">
-        {excerpt}
         <div class="cover-wrapper">
           <img src="{assetUrl}" />
           <div class="cover">

@@ -1,9 +1,6 @@
 * { box-sizing: border-box; }
 
-body {
-	// border-left: 20px solid black;
-	// border-right: 20px solid black;
-	// border-bottom: 20px solid black;
+body { 
 	color: black;
 	width: 100%;
 	margin-left: auto;
@@ -11,7 +8,7 @@ body {
 	font-size: 16px;
 	font-family:"adobe-garamond-pro";
 	a { color: black; text-decoration: none;}
-	::selection { background-color: #7FA4E2; color: #FFB5C2; }
+	::selection { background-color: #EFF2F7; color: #FF6666; }
 }
 
 main {
@@ -33,3 +30,20 @@ img {
 	width: 100%;
 	display: block;
 }
+
+
+body.acerca {
+	#main-nav {
+		.acerca {
+			color: white;
+			background-color: #292929;
+		}
+	}
+}
+
+
+// acerca
+// whatiswriting
+// maquinas-de-vision
+// boletin
+// search-trigger

@@ -1,43 +1,48 @@
 .header {
 	background-color: black;
 	height: 160px;
-	margin-bottom: 70px;
+	margin-bottom: 80px;
 }
 
 .bar {
 	z-index: 2000;
-	margin-bottom: 36px;
+	margin-bottom: 12px;
 	text-transform: uppercase;
 	background-color: white;
 	a.home-cr {
 		background-image: url("/assets/images/home-icon-black.png");
 		background-repeat: no-repeat;
+		width: 36px;
+		padding-bottom:6px;
 		display: inline-block;
 		text-indent: -10000px;
-		width: 24px;
-		height: 24px;
+	}
+	a:hover.home-cr {
+		background-color: white;
 	}
 
 	#main-nav {
-
-		border-bottom: 1px solid #DCDCDC;
+		border-bottom: 1px solid #292929;
 		a {
 			display: inline-block;
 			font-size: 0.9em;
-			letter-spacing: 1.5px;
-			font-weight: 600;
+			letter-spacing: 1px;
 			padding-left: 12px;
-			line-height: 36px;
+			padding-right: 12px;
+			padding-top: 8px;
+			padding-bottom: 4px;
 		}
-		a:hover { color: #FB2A4F; }
+		a:hover {
+			color: white;
+			background-color: #292929;
+		}
 		.media {
 			font-size: 0.9em;
 			float: right;
-			a { padding-left: 12px; display: inline-block;}
-			a:hover { color: #FB2A4F; }
+			a { display: inline-block;}
+			a:hover { color: white; }
 		}
 	}
-
 }
 
 

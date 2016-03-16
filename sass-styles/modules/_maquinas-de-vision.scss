@@ -9,7 +9,7 @@
       #main-nav {
         border-bottom: 1px solid #3C3C3C;
         a { color: #ECE6E6; }
-        a:hover { color: #FF778F; } 
+        a:hover { color: black; background-color: #DADADA; } 
       }
     }
 
@@ -34,7 +34,7 @@
         position: relative;
         .cover {
           z-index: 1000;
-          background: rgba(0,0,0,0.3);
+          background: rgba(255, 191, 206, 0.13);
           position: absolute;
           top: 0;
           right: 0;

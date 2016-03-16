@@ -1,91 +1,24 @@
-
+{.section item}
 <article>
   <header>
     <h1>{title}</h1>
     <h2>{author.displayName}</h2>
-    <span>{addedOn|date %F}</span>
   </header>
   <div class="columns">
     <section class="col col-9">
+      <h6>{addedOn|date %F}</h6>
       {body}
     </section>
-  </div>
-  <section class="col col-3">
-  </section>
-</article>
-
-
-<article>
-  <div class="columns">
-    <section class="col col-9">
-      {.section item}
-        <header>
-          <h1>{title}</h1>
-          <h2>{author.displayName}</h2>
-        </header>
-        {body}
-      {.end}
-    </section>
     <section class="col col-3">
-      <div class="whatishappening">
-        <span><i class="fa fa-external-link-square"></i> WATISHAPPENING</span>
-        <a class="item-small" target="hito" href="http://www.museoreinasofia.es/exposiciones/hito-steyerl">
-          <img src="images/maria.png" />
-          <div class="item-info">
-            <h1>Idea de la Ceniza</h1>
-            <h2>María Virginia Jaua</h2>
-          </div>
-        </a>
-        <a class="item-small" target="hito" href="http://www.museoreinasofia.es/exposiciones/hito-steyerl">
-          <img src="images/joaquin.png" />
-          <div class="item-info">
-            <h1>La tradición de todas las generaciones muertas</h1>
-            <h2>Joaquín Segura en Ex Teresa Arte Actual</h2>
-            <h6>29.02.2016 - 18.09.2016</h6>
-          </div>
-        </a>
-        <a class="item-small" target="hito" href="http://www.museoreinasofia.es/exposiciones/hito-steyerl">
-          <img src="images/idea-de-ceniza.jpg" />
-          <div class="item-info">
-            <h1>Obra de teatro</h1>
-            <h2>Lagartijas tiradas al Sol en Teatre Lluire</h2>
-            <h6>Consultar cartelera</h6>
-          </div>
-        </a>
-        <a class="item-small" target="hito" href="http://www.museoreinasofia.es/exposiciones/hito-steyerl">
-          <img src="images/idea-de-ceniza.jpg" />
-          <div class="item-info">
-            <h1>La tradición de todas las generaciones muertas</h1>
-            <h2>Joaquín Segura en Ex Teresa Arte Actual</h2>
-            <h6>29.02.2016 - 18.09.2016</h6>
-          </div>
-        </a>
-        <a class="item-small" target="hito" href="http://www.museoreinasofia.es/exposiciones/hito-steyerl">
-          <img src="images/idea-de-ceniza.jpg" />
-          <div class="item-info">
-            <h1>El aire entre las cosas</h1>
-            <h2>Ex alumnos de Soma en Casa Mahuaad</h2>
-            <h6>29.02.2016 - 18.09.2016</h6>
-          </div>
-        </a>
-        <a class="item-small" target="hito" href="http://www.museoreinasofia.es/exposiciones/hito-steyerl">
-          <img src="images/idea-de-ceniza.jpg" />
-          <div class="item-info">
-            <h1>Hito Steryl en el Museo Reina Sofia</h1>
-            <h6>29.02.2016 - 18.09.2016</h6>
-          </div>
-        </a>
-      </div>
+      <div class="whatishappening"> 
+        <span>Whatishappening</span>
+          <squarespace:query collection="whatishappening" limit="6">
+            {.repeated section items}
+                {body}
+            {.end}
+          </squarespace:query>
+        </div>
     </section>
   </div>
 </article>
-
-<squarespace:query collection="whatishappening" limit="4">
-  {.repeated section items}
-    <span>{addedOn|date %F}</span>
-    <h1>{title}</h1>
-    {body}
-  {.end}
-</squarespace:query>
-
-
+{.end}

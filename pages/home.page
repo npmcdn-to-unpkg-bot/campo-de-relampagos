@@ -1,38 +1,72 @@
 <section>
 	<div class="columns">
-		<div class="col col-10">
-			<div class="columns">
-				<div class="col col-6">
-					<squarespace:query collection="maquinas-de-vision" limit="1">
-					    {.repeated section items}
-						    <a class="item" href="{fullUrl}">
-				            <img src="{assetUrl}" />
-						      <div class="item-info">
-					          	<span>{addedOn|date %F}</span>
-					            <h1>{title}</h1>
-					            <h2>{author.displayName}</h2>
-					            <p>{excerpt}</p>
-						      </div>
-						    </a>
-					    {.end}
-					</squarespace:query>		
-				</div>
-				<div class="col col-6">
-					<squarespace:query collection="comunidad" limit="1">
-					    {.repeated section items}
-						    <a class="item" href="{fullUrl}">
-				            <img src="{assetUrl}" />
-						      <div class="item-info">
-					          	<span>{addedOn|date %F}</span>
-					            <h1>{title}</h1>
-					            <h2>{author.displayName}</h2>
-					            <p>{excerpt}</p>
-						      </div>
-						    </a>
-					    {.end}
-					</squarespace:query>
-				</div>
-			</div>
+		<div class="col col-5">
+			<squarespace:query collection="maquinas-de-vision" limit="1">
+			    {.repeated section items}
+				    <a class="item" href="{fullUrl}">
+				    <div class="cover-wrapper">
+			          <img src="{assetUrl}" />
+			          <div class="cover">
+			          </div>
+			        </div>
+				      <div class="item-info">
+			          	<span><i class="fa fa-play"></i> Máquinas de visión {addedOn|date %F}</span>
+			          	<header>
+				            <h1>{title}</h1>
+				            <h2>{author.displayName}</h2>
+			          	</header>
+			            <p>{excerpt}</p>
+				      </div>
+				    </a>
+			    {.end}
+			</squarespace:query>		
+			<squarespace:query collection="comunidad" limit="1">
+			    {.repeated section items}
+				    <a class="item" href="{fullUrl}">
+		            <img src="{assetUrl}" />
+				      <div class="item-info">
+			          	<span><i class="fa fa-comment"></i> Comunidad {addedOn|date %F}</span>
+			          	<header>
+				            <h1>{title}</h1>
+				            <h2>{author.displayName}</h2>
+			            </header>
+			            <p>{excerpt}</p>
+				      </div>
+				    </a>
+			    {.end}
+			</squarespace:query>
+		</div>
+		<div class="col col-5">
+			<squarespace:query collection="whatiswriting" limit="1">
+			    {.repeated section items}
+				    <a class="item" href="{fullUrl}">
+		            <img src="{assetUrl}" />
+				      <div class="item-info">
+			          	<span><i class="fa fa-paragraph"></i> Watiswriting {addedOn|date %F}</span>
+			          	<header>
+				            <h1>{title}</h1>
+				            <h2>{author.displayName}</h2>
+			            </header>
+			            <p>{excerpt}</p>
+				      </div>
+				    </a>
+			    {.end}
+			</squarespace:query>
+			<squarespace:query collection="whatishappening" limit="1">
+			    {.repeated section items}
+				    <a class="item" href="{fullUrl}">
+		           	<img src="{assetUrl}" />
+				      <div class="item-info">
+			          	<span> Watishappening {addedOn|date %F}</span>
+			          	<header>
+				            <h1>{title}</h1>
+				            <h2>{author.displayName}</h2>
+			            </header>
+			            <p>{excerpt}</p>
+				      </div>
+				    </a>
+			    {.end}
+			</squarespace:query>
 		</div>
 		<div class="col col-2">
 			<img src="http://api.usno.navy.mil/imagery/moon.png" />
@@ -43,33 +77,7 @@
 	</div>
 </section>
 
-				<squarespace:query collection="whatiswriting" limit="1">
-				    {.repeated section items}
-					    <a class="item" href="{fullUrl}">
-			            <img src="{assetUrl}" />
-					      <div class="item-info">
-				          	<span>{addedOn|date %F}</span>
-				            <h1>{title}</h1>
-				            <h2>{author.displayName}</h2>
-				            <p>{excerpt}</p>
-					       </div>
-					    </a>
-				    {.end}
-				</squarespace:query>
 
 
 
-				<squarespace:query collection="whatishappening" limit="1">
-				    {.repeated section items}
-					    <a class="item" href="{fullUrl}">
-			            <p>{body}</p>
-					      <div class="item-info">
-				          	<span>{addedOn|date %F}</span>
-				            <h1>{title}</h1>
-				            <h2>{author.displayName}</h2>
-					        </div>
-					      </div>
-					    </a>
-				    {.end}
-				</squarespace:query>
 
