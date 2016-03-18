@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="https://use.typekit.net/kvj7pet.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    <!-- <link rel="stylesheet" href="http://localhost:3002/styles/styles.css"> -->
-    {squarespace-headers}
+    {.if nodeServer}
+      <link rel="stylesheet" href="http://localhost:3002/styles/styles.css">
+    {.or}
+      {squarespace-headers}
+    {.end}
+    
     <script src="/assets/javascripts/jquery.sticky.js"></script>
     <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
 <!--     <link rel="stylesheet" href="http://basehold.it/24">-->

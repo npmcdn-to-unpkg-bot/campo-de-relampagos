@@ -169,7 +169,7 @@ blockquote {
       padding-bottom: 6px; }
     .bar #main-nav a:hover {
       color: black;
-      background-color: #DADADA; }
+      background-color: #FF6666; }
     .bar #main-nav .media {
       font-size: 0.9em;
       float: right; }
@@ -364,7 +364,7 @@ blockquote {
 
 .item-medium:hover {
   background-color: #EFF2F7;
-  border-bottom: 1px solid #FF6666; }
+  border-bottom: 2px solid #FF6666; }
 
 .item-small:hover {
   background-color: #EFF2F7;
@@ -386,7 +386,7 @@ blockquote {
         color: #ECE6E6; }
       .collection-type-maquinas-de-vision .bar #main-nav a:hover {
         color: white;
-        background-color: #3C3C3C; }
+        background-color: #FF6666; }
   .collection-type-maquinas-de-vision .item-medium {
     border-bottom: none;
     font-family: "acumin-pro";

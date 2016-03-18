@@ -12,7 +12,6 @@
             <header>
               <h1>{title}</h1>
               <h2>{author.displayName}</h2>
-              <h5>{addedOn|date %F}</h5>
             </header>
           </div>
         </a>
@@ -45,8 +44,7 @@
         <div class="item-info">
           <header>
             <h1>{title}</h1>
-            <h2>{author.displayName}</h2>
-            <h5>{addedOn|date %F}</h5>
+            <h2>{author.displayName}</h2
           </header>
         </div>
       </a>
