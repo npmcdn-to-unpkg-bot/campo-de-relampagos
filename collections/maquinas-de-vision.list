@@ -12,7 +12,7 @@
             <header>
               <h1>{title}</h1>
               <h2>{author.displayName}</h2>
-              <span>{addedOn|date %F}</span>
+              <h5>{addedOn|date %F}</h5>
             </header>
           </div>
         </a>
@@ -46,7 +46,7 @@
           <header>
             <h1>{title}</h1>
             <h2>{author.displayName}</h2>
-            <span>{addedOn|date %F}</span>
+            <h5>{addedOn|date %F}</h5>
           </header>
         </div>
       </a>

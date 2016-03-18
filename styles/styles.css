@@ -77,9 +77,9 @@ h4 {
   font-weight: 600; }
 
 h5 {
-  font-size: 0.9em;
-  letter-spacing: 1px;
-  font-family: "acumin-pro"; }
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 1px; }
 
 h6 {
   font-size: 0.8em;
@@ -144,7 +144,7 @@ blockquote {
 
 .bar {
   z-index: 2000;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
   text-transform: uppercase;
   background-color: white; }
   .bar a.home-cr {
@@ -155,8 +155,9 @@ blockquote {
     display: inline-block;
     text-indent: -10000px; }
   .bar a:hover.home-cr {
-    background-color: white; }
+    background-color: white !important; }
   .bar #main-nav {
+    position: relative;
     border-bottom: 1px solid #292929; }
     .bar #main-nav a {
       display: inline-block;
@@ -165,17 +166,15 @@ blockquote {
       padding-left: 12px;
       padding-right: 12px;
       padding-top: 8px;
-      padding-bottom: 4px; }
+      padding-bottom: 6px; }
     .bar #main-nav a:hover {
-      color: white;
-      background-color: #292929; }
+      color: black;
+      background-color: #DADADA; }
     .bar #main-nav .media {
       font-size: 0.9em;
       float: right; }
       .bar #main-nav .media a {
         display: inline-block; }
-      .bar #main-nav .media a:hover {
-        color: white; }
 
 .button {
   font-family: "acumin-pro";
@@ -291,6 +290,20 @@ blockquote {
     padding-bottom: 12px;
     padding-top: 6px; }
 
+.item:hover {
+  background-color: #EFF2F7;
+  border-bottom: 1px solid black; }
+  .item:hover .cover-wrapper {
+    position: relative; }
+    .item:hover .cover-wrapper .cover {
+      z-index: 1000;
+      background: rgba(255, 191, 206, 0.13);
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0; }
+
 .item-medium {
   display: block;
   border-bottom: 1px solid white; }
@@ -302,6 +315,8 @@ blockquote {
   .item-medium h2 {
     font-size: 1.2em;
     letter-spacing: 0.6px; }
+  .item-medium h5 {
+    padding-bottom: 5px; }
   .item-medium p {
     font-size: 0.9em;
     line-height: 1.5em;
@@ -347,15 +362,9 @@ blockquote {
     letter-spacing: inherit;
     font-family: inherit; }
 
-.item:hover {
-  background-color: #EFF2F7;
-  border-bottom: 1px solid black; }
-
 .item-medium:hover {
   background-color: #EFF2F7;
   border-bottom: 1px solid #FF6666; }
-  .item-medium:hover span {
-    color: #FF6666; }
 
 .item-small:hover {
   background-color: #EFF2F7;
@@ -376,8 +385,8 @@ blockquote {
       .collection-type-maquinas-de-vision .bar #main-nav a {
         color: #ECE6E6; }
       .collection-type-maquinas-de-vision .bar #main-nav a:hover {
-        color: black;
-        background-color: #DADADA; }
+        color: white;
+        background-color: #3C3C3C; }
   .collection-type-maquinas-de-vision .item-medium {
     border-bottom: none;
     font-family: "acumin-pro";
@@ -388,16 +397,16 @@ blockquote {
     display: block; }
     .collection-type-maquinas-de-vision .item-medium h1 {
       font-size: 0.9em;
-      font-weight: 400;
+      font-weight: 600;
       letter-spacing: 1.5px; }
     .collection-type-maquinas-de-vision .item-medium h2 {
-      letter-spacing: 3px;
-      font-size: 0.7em; }
+      letter-spacing: 1.5px;
+      font-size: 0.8em; }
   .collection-type-maquinas-de-vision .masonry-item {
     width: 329px; }
   .collection-type-maquinas-de-vision .item-medium:hover {
     cursor: pointer;
-    background-color: #292929;
+    background-color: #1F1F1F;
     color: white; }
     .collection-type-maquinas-de-vision .item-medium:hover .cover-wrapper {
       position: relative; }
@@ -449,13 +458,16 @@ blockquote {
     color: #B1B1B1;
     background-color: #212121; }
 
+.collection-type-maquinas-de-vision #main-nav .maquinas-de-vision {
+  color: black !important;
+  background-color: #DADADA !important; }
+
 .page-description {
-  font-family: "acumin-pro";
   padding-left: 24px;
   color: #272727; }
   .page-description p {
-    font-size: 0.8em;
-    letter-spacing: 1px; }
+    font-size: 0.9em;
+    letter-spacing: 0.2px; }
   .page-description .section-search {
     border-radius: 20px;
     border: 1px solid #E6E6E6;
@@ -469,12 +481,14 @@ blockquote {
       letter-spacing: 2px; }
 
 #search {
-  display: none; }
+  display: none;
+  position: absolute;
+  right: 0;
+  border-bottom: 1px solid black; }
   #search input {
-    margin-top: 30px;
+    margin-top: 6px;
     width: 1000px;
-    height: 50px;
-    text: red; }
+    height: 24px; }
 
 section {
   zoom: 1;
@@ -488,8 +502,8 @@ section {
     clear: both; }
 
 section.section-cr {
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding-bottom: 80px;
+  padding-top: 80px;
   border-bottom: 1px solid black; }
   section.section-cr p {
     line-height: 24px;
@@ -559,7 +573,7 @@ span {
   padding-left: 100px; }
 
 .artium-small {
-  width: 30%; }
+  width: 25%; }
 
 * {
   box-sizing: border-box; }
@@ -609,6 +623,14 @@ img {
   width: 100%;
   display: block; }
 
-body.acerca #main-nav .acerca {
+.collection-type-whatiswriting #main-nav .whatiswriting {
+  color: white;
+  background-color: #292929; }
+
+.collection-56e5832f7da24f279616f30f #main-nav .acerca {
+  color: white;
+  background-color: #292929; }
+
+.collection-56dc40ba20c647a2ce54a40a #main-nav .comunidad {
   color: white;
   background-color: #292929; }

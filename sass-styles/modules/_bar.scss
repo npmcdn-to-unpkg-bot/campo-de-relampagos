@@ -6,7 +6,7 @@
 
 .bar {
 	z-index: 2000;
-	margin-bottom: 12px;
+	margin-bottom: 24px;
 	text-transform: uppercase;
 	background-color: white;
 	a.home-cr {
@@ -18,10 +18,11 @@
 		text-indent: -10000px;
 	}
 	a:hover.home-cr {
-		background-color: white;
+		background-color: white !important;
 	}
 
 	#main-nav {
+		position: relative;
 		border-bottom: 1px solid #292929;
 		a {
 			display: inline-block;
@@ -30,17 +31,17 @@
 			padding-left: 12px;
 			padding-right: 12px;
 			padding-top: 8px;
-			padding-bottom: 4px;
+			padding-bottom: 6px;
 		}
 		a:hover {
-			color: white;
-			background-color: #292929;
+			color: black;
+			background-color: #DADADA;
 		}
 		.media {
 			font-size: 0.9em;
 			float: right;
 			a { display: inline-block;}
-			a:hover { color: white; }
+			a:hover { }
 		}
 	}
 }

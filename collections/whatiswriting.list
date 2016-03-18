@@ -4,16 +4,19 @@
       {.equal? @index 1}
         <a class="item-medium" href="{fullUrl}">
           <div class="item-info">
-              <span>{addedOn|date %F}</span>
+              <h5>{addedOn|date %F}</h5>
               <header>
                 <h1>{title}</h1>
                 <h2>{author.displayName}</h2>
               </header>
             <div class="columns">
-              <div class="col col-3">
-                <img src="{assetUrl}" />
+              <div class="col col-4">
+                <div class="cover-wrapper">
+                  <img src="{assetUrl}" />
+                  <div class="cover"></div>
+                </div>
               </div>
-              <div class="col col-9">
+              <div class="col col-8">
                 <div class="item-exerpt-padding-left">
                   <p>{excerpt}</p>
                 </div>
@@ -44,7 +47,7 @@
       <a class="item-medium masonry-item" href="{fullUrl}">
         <div class="item-info">
           <header>
-            <span>{addedOn|date %F}</span><h1>{title}</h1><h2>{author.displayName}</h2>
+            <h5>{addedOn|date %F}</h5><h1>{title}</h1><h2>{author.displayName}</h2>
           </header>
           {excerpt}
         </div>

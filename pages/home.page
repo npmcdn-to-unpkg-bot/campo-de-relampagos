@@ -6,8 +6,7 @@
 				    <a class="item" href="{fullUrl}">
 				    <div class="cover-wrapper">
 			          <img src="{assetUrl}" />
-			          <div class="cover">
-			          </div>
+			          <div class="cover"></div>
 			        </div>
 				      <div class="item-info">
 			          	<span><i class="fa fa-play"></i> Máquinas de visión {addedOn|date %F}</span>
@@ -23,7 +22,10 @@
 			<squarespace:query collection="comunidad" limit="1">
 			    {.repeated section items}
 				    <a class="item" href="{fullUrl}">
-		            <img src="{assetUrl}" />
+		            <div class="cover-wrapper">
+			          <img src="{assetUrl}" />
+			          <div class="cover"></div>
+			        </div>
 				      <div class="item-info">
 			          	<span><i class="fa fa-comment"></i> Comunidad {addedOn|date %F}</span>
 			          	<header>
@@ -40,7 +42,10 @@
 			<squarespace:query collection="whatiswriting" limit="1">
 			    {.repeated section items}
 				    <a class="item" href="{fullUrl}">
-		            <img src="{assetUrl}" />
+		            <div class="cover-wrapper">
+			          <img src="{assetUrl}" />
+			          <div class="cover"></div>
+			        </div>
 				      <div class="item-info">
 			          	<span><i class="fa fa-paragraph"></i> Watiswriting {addedOn|date %F}</span>
 			          	<header>
@@ -55,7 +60,10 @@
 			<squarespace:query collection="whatishappening" limit="1">
 			    {.repeated section items}
 				    <a class="item" href="{fullUrl}">
-		           	<img src="{assetUrl}" />
+		           	<div class="cover-wrapper">
+			          <img src="{assetUrl}" />
+			          <div class="cover"></div>
+			        </div>
 				      <div class="item-info">
 			          	<span> Watishappening {addedOn|date %F}</span>
 			          	<header>

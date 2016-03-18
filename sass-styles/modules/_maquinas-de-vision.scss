@@ -9,7 +9,7 @@
       #main-nav {
         border-bottom: 1px solid #3C3C3C;
         a { color: #ECE6E6; }
-        a:hover { color: black; background-color: #DADADA; } 
+        a:hover { color: white; background-color: #3C3C3C; } 
       }
     }
 
@@ -21,14 +21,14 @@
       margin-right: 0px;
       margin-bottom: 6px;
       display: block;
-      h1 {font-size: 0.9em;font-weight: 400; letter-spacing: 1.5px;}
-      h2 {letter-spacing: 3px; font-size: 0.7em; }
+      h1 {font-size: 0.9em; font-weight: 600; letter-spacing: 1.5px;}
+      h2 {letter-spacing: 1.5px; font-size: 0.8em; }
     }
 
     .masonry-item { width: 329px; }
     .item-medium:hover { 
       cursor: pointer;
-      background-color: #292929; 
+      background-color:#1F1F1F; 
       color: white; 
       .cover-wrapper {
         position: relative;
@@ -60,4 +60,14 @@
     .section-indexdate { color: #B1B1B1; border-bottom: 1px solid #3C3C3C;  }
     .button-year { color:#3C3C3C; border-bottom: 1px solid #3C3C3C; } 
     .button-year:hover { color: #B1B1B1; background-color: #212121; }
+}
+
+.collection-type-maquinas-de-vision {
+  #main-nav {
+    .maquinas-de-vision {
+      color: black !important;
+      background-color: #DADADA !important;
+    }
+  }
+
 }

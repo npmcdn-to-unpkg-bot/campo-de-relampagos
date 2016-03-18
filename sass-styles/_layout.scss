@@ -32,7 +32,16 @@ img {
 }
 
 
-body.acerca {
+.collection-type-whatiswriting {
+	#main-nav {
+		.whatiswriting {
+			color: white;
+			background-color: #292929;
+		}
+	}
+}
+
+.collection-56e5832f7da24f279616f30f {
 	#main-nav {
 		.acerca {
 			color: white;
@@ -41,9 +50,11 @@ body.acerca {
 	}
 }
 
-
-// acerca
-// whatiswriting
-// maquinas-de-vision
-// boletin
-// search-trigger
+.collection-56dc40ba20c647a2ce54a40a {
+	#main-nav {
+		.comunidad {
+			color: white;
+			background-color: #292929;
+		}
+	}
+}

@@ -6,6 +6,7 @@
           <h2>{title}</h2>
           <h3>{author.displayName}</h3>
         </header>
+        <h5>{addedOn|date %F}</h5>
         {body}
       </div>
     </div>

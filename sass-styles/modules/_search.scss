@@ -1,9 +1,12 @@
 #search {
 	display: none;
+	position: absolute;
+	right: 0;
+	border-bottom: 1px solid black;
+	
 	input {
-		margin-top: 30px;
+		margin-top: 6px;
 		width: 1000px;
-		height: 50px;
-		text: red;
+		height: 24px;
 	}
 }
