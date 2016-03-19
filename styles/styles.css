@@ -486,6 +486,7 @@ blockquote {
   right: 0;
   border-bottom: 1px solid black; }
   #search input {
+    border: none;
     margin-top: 6px;
     width: 1000px;
     height: 24px; }
