@@ -1,7 +1,8 @@
 <section class="video-article">
   {.section item}
     {body}
-    <a href="#" class="fb-share">share on facebook</a>
+    {@|apply facebook.block}
+    {@|apply twitter.block}
     <header>
      <h1>{title}</h2>
      <h1>{author.displayName}</h2>
