@@ -42,9 +42,9 @@ $(document).ready(function() {
 });
 
 $(document).ready(function () {
-	// if (!localStorage.cookiesAccepted) {
+	if (!localStorage.cookiesAccepted) {
 		$('.cookie-warning').show();
-	// }
+	}
 
 	$('.cookie-warning').click(function() {
 		localStorage.cookiesAccepted = true;

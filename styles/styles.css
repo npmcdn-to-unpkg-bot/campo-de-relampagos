@@ -252,6 +252,18 @@ blockquote {
 .col-12 {
   width: 100%; }
 
+.cookie-warning {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: red;
+  cursor: pointer; }
+
+.cookie-warning:hover {
+  cursor: pointer; }
+
 .comunity-article header {
   margin-bottom: 24px; }
 
