@@ -15,6 +15,9 @@
 	p { font-family: "acumin-pro"; font-size: 0.8rem; letter-spacing: 0.9px; line-height: 1.1rem; }
 	header { padding-bottom: 12px; padding-top: 6px;}
 }
+.item:hover * {
+	cursor: pointer;
+}
 .item:hover {
 	h1 {text-decoration: underline;}
 	h2 {text-decoration: underline;}
@@ -44,7 +47,19 @@
 	background-color: #EFF2F7;
 	h1 {text-decoration: underline; }
 	h2 {text-decoration: underline; }
-	}
+	.cover-wrapper {
+	    position: relative;
+	    .cover {
+	      z-index: 1000;
+	      background: rgba(255, 191, 206, 0.2);
+	      position: absolute;
+	      top: 0;
+	      right: 0;
+	      bottom: 0;
+	      left: 0;
+	    }
+	}	
+}
 .item-small {
 	background-color: #F7F9FD;
 	display: block;
@@ -65,19 +80,20 @@
 		padding-bottom: 5px;
 	}
 	.item-info {
-	padding-left: 12px;
-	padding-right: 12px;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-top: 12px;
+	margin-bottom: 12px;
 	}
 }
 .item-info {
-	padding-left: 24px;
-	padding-right: 24px;
-	padding-top: 24px;
-	padding-bottom: 24px;
+	margin-left: 24px;
+	margin-right: 24px;
+	margin-top: 24px;
+	margin-bottom: 24px;
 	z-index: 2000;
 }
+
 
 .item-small:hover { background-color: #EFF2F7; color: black; }
 .item-exerpt-padding-left { p {padding-left: 20px;} }

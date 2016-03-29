@@ -1,11 +1,22 @@
-$('.masonry-grid').masonry({
-  itemSelector: '.masonry-item'
+function setupMasonry() {
+	console.log('setting up masonry');
+	$('.masonry-grid').masonry({
+	  itemSelector: '.masonry-item'
+	});	
+	$('.masonry-grid-guttered').masonry({
+	  itemSelector: '.masonry-item',
+	  gutter: 6
+	});
+}
+
+$(document).ready(setupMasonry);
+
+Typekit.load({
+	async: true,
+	active: setupMasonry,
+	inactive: setupMasonry
 });
 
-$('.masonry-grid-guttered').masonry({
-  itemSelector: '.masonry-item',
-  gutter: 6
-});
 
 $('#search-trigger').click(function(e) {
 	$('#search').toggle();
