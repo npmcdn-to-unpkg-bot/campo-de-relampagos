@@ -1,5 +1,4 @@
 function setupMasonry() {
-	console.log('setting up masonry');
 	$('.masonry-grid').masonry({
 	  itemSelector: '.masonry-item'
 	});	
@@ -41,3 +40,14 @@ $(document).ready(function() {
     	return false;
     });
 });
+
+$(document).ready(function () {
+	// if (!localStorage.cookiesAccepted) {
+		$('.cookie-warning').show();
+	// }
+
+	$('.cookie-warning').click(function() {
+		localStorage.cookiesAccepted = true;
+		$('.cookie-warning').slideToggle(200);	
+	});
+}); 
