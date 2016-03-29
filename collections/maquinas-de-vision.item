@@ -3,6 +3,7 @@
     {body}
     <header>
      <h1>{title}</h2>
+     <h1>{author.displayName}</h2>
      </header>
      <div class="columns">
       <div class="col col-3">

@@ -1,13 +1,27 @@
 #search {
+    z-index: 1000;
+    box-sizing: border-box;	
 	display: none;
 	position: absolute;
-	right: 0;
-	border-bottom: 1px solid black;
+    right: 0;
+    left: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    margin-top: 2px;
+    background: white;
+	border: 1px solid black;
 
 	input {
+		background: url(/universal/images-v6/icons/icon-searchqueries-32-dark.png) no-repeat 15px 50%;
 		border:none;
-		margin-top: 6px;
-		width: 1000px;
+		width: 980px;
 		height: 24px;
+		outline: none;
+	    border: none;
+	    margin: 0;
+	    font-style: italic;
+	    font-size: 20px;
+	    letter-spacing: 2px;		
 	}
 }

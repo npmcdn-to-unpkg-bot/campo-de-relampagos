@@ -9,7 +9,7 @@
 			          <div class="cover"></div>
 			        </div>
 				      <div class="item-info">
-			          	<span><i class="fa fa-play"></i> Máquinas de visión {addedOn|date %F}</span>
+			          	<h5><i class="fa fa-play"></i> Máquinas de visión {addedOn|date %F}</h5>
 			          	<header>
 				            <h1>{title}</h1>
 				            <h2>{author.displayName}</h2>
@@ -27,7 +27,7 @@
 			          <div class="cover"></div>
 			        </div>
 				      <div class="item-info">
-			          	<span><i class="fa fa-comment"></i> Comunidad {addedOn|date %F}</span>
+			          	<h5><i class="fa fa-comment"></i> Comunidad {addedOn|date %F}</h5>
 			          	<header>
 				            <h1>{title}</h1>
 				            <h2>{author.displayName}</h2>
@@ -47,7 +47,7 @@
 			          <div class="cover"></div>
 			        </div>
 				      <div class="item-info">
-			          	<span><i class="fa fa-paragraph"></i> Watiswriting {addedOn|date %F}</span>
+			          	<h5><i class="fa fa-paragraph"></i> Crítica y Reviews {addedOn|date %F}</h5>
 			          	<header>
 				            <h1>{title}</h1>
 				            <h2>{author.displayName}</h2>
@@ -59,13 +59,13 @@
 			</squarespace:query>
 			<squarespace:query collection="whatishappening" limit="1">
 			    {.repeated section items}
-				    <a class="item" href="{fullUrl}">
+				    <a class="item" target="external-link" href="{fullUrl}">
 		           	<div class="cover-wrapper">
 			          <img src="{assetUrl}" />
 			          <div class="cover"></div>
 			        </div>
 				      <div class="item-info">
-			          	<span> Watishappening {addedOn|date %F}</span>
+			          	<h5><i class="fa fa-external-link"></i> Watishappening {addedOn|date %F}</h5>
 			          	<header>
 				            <h1>{title}</h1>
 				            <h2>{author.displayName}</h2>
@@ -78,14 +78,10 @@
 		</div>
 		<div class="col col-2">
 			<img src="http://api.usno.navy.mil/imagery/moon.png" />
-			<div class="publicity">
-				<a target="artium" href="http://www.artium.org/"><img src="http://www.artium.org/templates/favourite/images/logo/logotipo-artium.png" ></a>
-			</div>
+<!-- 			<div class="publicity">
+			</div> -->
 		</div>
 	</div>
 </section>
-
-
-
 
 

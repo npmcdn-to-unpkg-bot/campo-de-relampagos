@@ -6,17 +6,38 @@
           <h2>{title}</h2>
           <h3>{author.displayName}</h3>
         </header>
-        <h5>{addedOn|date %F}</h5>
+        <h6>{addedOn|date %F}</h6>
         {body}
       </div>
+      {@|comments}
     </div>
     <div class="col col-3">
       <div class="page-description">
-        <span> <i class="fa fa-comment"></i> Comunidad</span>
+        <h5> <i class="fa fa-comment"></i> Comunidad</h5>
         <p>Espacio de reflexión y opinión comprometido con la realidad cultural que a veces se torna compleja. En este espacio habrá textos de opinión, así como un lugar para dar difusión a cartas de adhesión y manifiestos que consideremos importantes y oportunos para apoyar a la comunidad cultural a la que pertenecemos.</p>
       </div>
     </div>
   </div>
-
-  {@|comments}
 {.end}
+
+<div class="section-indexdate">
+  <h3>c_archivo</h3>
+</div>
+  <squarespace:query collection="comunidad" limit="20">
+      {.repeated section items}
+        <a class="item-medium" href="{fullUrl}">
+            <div class="cover-wrapper">
+            <img src="{assetUrl}" />
+            <div class="cover"></div>
+          </div>
+          <div class="item-info">
+              <h5>{addedOn|date %F}</h5>
+              <header>
+                <h1>{title}</h1>
+                <h2>{author.displayName}</h2>
+              </header>
+              <p>{excerpt}</p>
+          </div>
+        </a>
+      {.end}
+  </squarespace:query>

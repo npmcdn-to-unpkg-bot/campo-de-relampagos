@@ -11,7 +11,7 @@
     </section>
     <section class="col col-3">
       <div class="whatishappening"> 
-        <span>Whatishappening</span>
+        <h5>What is happening?</h5>
           <squarespace:query collection="whatishappening" limit="6">
             {.repeated section items}
                 {body}
@@ -21,4 +21,5 @@
     </section>
   </div>
 </article>
+{@|comments}
 {.end}

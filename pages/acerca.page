@@ -4,23 +4,6 @@
 <section class="section-cr">
 	<div class="columns">
 		<div class="col col-3">
-			<h5>CONTACTO</h5>
-		</div>
-		<div class="col col-9">
-			<div class="contacto">
-				<h5>Para ponerte en contacto o enviar un texto al editor</h5>
-				<a href="/watiswriting-index" class="button">edicion@cr.com</a>
-			</div>
-			<div class="contacto">
-				<h5>Si tienes algún problema técnico por favor contacta</h5>
-				<a href="/watiswriting-index" class="button">soporte@cr.com</a>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="section-cr">
-	<div class="columns">
-		<div class="col col-3">
 			<h5>COLABORADORES</h5>
 		</div>
 		<div class="col col-9">

@@ -1,35 +1,36 @@
-<div class="columns">
-  <div class="col col-9">
-    {.repeated section items}
-      {.equal? @index 1}
-        <a class="item-medium" href="{fullUrl}">
-          <div class="cover-wrapper">
-            <img src="{assetUrl}" />
-            <div class="cover">
+<section>
+  <div class="columns">
+    <div class="col col-9">
+      {.repeated section items}
+        {.equal? @index 1}
+          <a class="item-medium" href="{fullUrl}">
+            <div class="cover-wrapper">
+              <img src="{assetUrl}" />
+              <div class="cover">
+              </div>
             </div>
-          </div>
-          <div class="item-info">
-            <header>
-              <h1>{title}</h1>
-              <h2>{author.displayName}</h2>
-            </header>
-          </div>
-        </a>
+            <div class="item-info">
+              <header>
+                <h1>{title}</h1>
+                <h2>{author.displayName}</h2>
+              </header>
+            </div>
+          </a>
+        {.end}
       {.end}
-    {.end}
-  </div>
-  <div class="col col-3">
-    <div class="page-description">
-      <span><i class="fa fa-paragraph"></i> Máquinas de visión</span>
-      <p>Este apartado corresponde a una sección “curada” en la que se muestran obras audiovisuales y con la que se pretende activar el dispositivo propio de las imágenes de nuestro tiempo. Se trata de un espacio de difusión y de reflexión para las imágenes en movimiento, las cuales por sus condiciones técnicas son las que mejor podemos “reproducir” y por lo tanto proponer a los lectores, manteniendo cierta fidelidad.</p>
+    </div>
+    <div class="col col-3">
+      <div class="page-description">
+        <h5><i class="fa fa-paragraph"></i> Máquinas de visión</h5>
+        <p>Este apartado corresponde a una sección “curada” en la que se muestran obras audiovisuales y con la que se pretende activar el dispositivo propio de las imágenes de nuestro tiempo. Se trata de un espacio de difusión y de reflexión para las imágenes en movimiento, las cuales por sus condiciones técnicas son las que mejor podemos “reproducir” y por lo tanto proponer a los lectores, manteniendo cierta fidelidad.</p>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
 <div class="section-indexdate">
-  <h3>2016</h3>
+  <h3>mv_archivo</h3>
 </div>
-
 <div class="items masonry-grid-guttered">
   {.repeated section items}
     {.equal? @index 1}
@@ -51,12 +52,4 @@
     {.end}
   {.end}
 </div>
-
-<a href="/watiswriting-index" class="button-year"><h3>2015</h3></a>
-<a href="/watiswriting-index" class="button-year"><h3>2014</h3></a>
-<a href="/watiswriting-index" class="button-year"><h3>2013</h3></a>
-<a href="/watiswriting-index" class="button-year"><h3>2012</h3></a>
-<a href="/watiswriting-index" class="button-year"><h3>2011</h3></a>
-<a href="/watiswriting-index" class="button-year"><h3>2010</h3></a>
-
 

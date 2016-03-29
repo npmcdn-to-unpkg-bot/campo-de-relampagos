@@ -13,50 +13,52 @@
       <link rel="stylesheet" href="http://localhost:3002/styles/styles.css">
     {.or}
       {squarespace-headers}
-    {.end}
+    {.end} 
     
     <script src="/assets/javascripts/jquery.sticky.js"></script>
     <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
-<!--     <link rel="stylesheet" href="http://basehold.it/24">-->
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
     <div class="header">
       <div class="logo cdr-container">
-        <a href="/"><img style="width: 1000px" src="/assets/images/logotipo.png" /></a>
+        <a href="/"><img style="width: 1000px" src="/assets/images/logotipo/logotipo.png" /></a>
       </div>
     </div>
     <div class="bar sticky">
       <div class="cdr-container">
         <div id="main-nav">
-          <a class="home-cr" href="/">Home</a>
-          <a class="acerca" href="/acerca">CR</a>
-          <a class="whatiswriting" href="/whatiswriting">Whatiswriting</a>
+          <div class="home">
+            <a href="/"><i class="fa fa-home"></i></a>
+          </div>
+          <a class="whatiswriting" href="/whatiswriting">Critica&amp;reviews</a>
           <a class="maquinas-de-vision" href="/maquinas-de-vision">Máquinas de visión</a>
           <squarespace:query collection="comunidad" limit="1">
             {.repeated section items}
               <a class="comunidad" href="{fullUrl}">Comunidad</a>
             {.end}
           </squarespace:query>
+          <a class="boletin" href="/">Boletín</a>
+          <a class="acerca" href="/acerca">Acerca</a>
           <div class="media">
-            <a class="boletin" href="/">BOLETÍN</a>
             <a href="#" id="search-trigger"><i class="fa fa-search"></i></a>
             <form id="search" action="/search" method="GET">
-              <input type="text" name="q" />
+              <input placeholder="Buscar" type="text" name="q" />
             </form>
-            <a target="facebook" href="https://www.facebook.com/" ><i class="fa fa-facebook-square"></i></a>
-            <a target="twitter" href="https://twitter.com/" ><i class="fa fa-twitter-square"></i></a>
+            <a href="mailto:edicion@cr.com"><i class="fa fa-envelope-o"></i></a>
+            <a target="facebook" href="#" class="fb-share"><i class="fa fa-facebook"></i></a>
+            <a target="twitter" href="https://twitter.com/" ><i class="fa fa-twitter"></i></a>
           </div>
         </div>
       </div>
     </div>
+<!-- <a class="home-cr" href="/">Home</a> -->
     <main>
       <!--Content injection point.-->
       <main id="content" class="content" role="main" data-content-field="main-content">
        {squarespace.main-content}
       </main>
-
       <div class="smallprint">
-        <h6>Logotipo Aitor Méndez. Web Alejandra Avilés. Campo de relámpagos a.C. (cc) 2016-2020.</h6>
+        <h6>soporte@campoderelampagos.org Campo de relámpagos a.C. (cc) 2016-2020.</h6>
       </div>
     </main>
 

@@ -4,12 +4,17 @@
     .bar {
       background-color: #171717;
       a.home-cr {
-      background-image: url("/images/home-icon-white.png");
+      background-image: url("/images/home-icon/home-icon-white.png");
       }
       #main-nav {
         border-bottom: 1px solid #3C3C3C;
         a { color: #ECE6E6; }
-        a:hover { color: white; background-color: #FF6666; } 
+        a:hover { color: #FF6666; } 
+      }
+      .media {
+        a:hover { 
+        color: #FF6666;
+        }
       }
     }
 
@@ -29,7 +34,8 @@
     .item-medium:hover { 
       cursor: pointer;
       background-color:#1F1F1F; 
-      color: white; 
+      h1 {text-decoration: none;color: white;}
+      h2 {text-decoration: none;color: white;}
       .cover-wrapper {
         position: relative;
         .cover {
@@ -53,8 +59,23 @@
     .video-article {
       color: #ECE6E6;
       h5 { font-family:"acumin-pro"; font-size: 0.7em; line-height: 2.5em; text-transform: uppercase; letter-spacing: 3px; }
-      p { font-family:"acumin-pro"; font-weight:100; font-size: 1.1em; letter-spacing: 1.3px; line-height: 30px; font-weight: 300; }
       header { padding-bottom: 70px; padding-top: 20px; }
+      p {
+        font-family:"acumin-pro";
+        font-weight:100;
+        font-size: 1.1em;
+        letter-spacing: 1.3px;
+        line-height: 30px;
+        font-weight: 300;
+        span {
+          font-family:"acumin-pro";
+          font-weight:100;
+          font-size: 1.1em;
+          letter-spacing: 1.3px;
+          line-height: 30px;
+          font-weight: 300;
+        }
+      }
     }
     .smallprint { color: #696969; }
     .section-indexdate { color: #B1B1B1; border-bottom: 1px solid #3C3C3C;  }
@@ -69,5 +90,9 @@
       background-color: #DADADA !important;
     }
   }
+#search {
+  background: #171717;
+  border: 1px solid #3C3C3C;
+}
 
 }

@@ -6,7 +6,8 @@
   "scripts": {
     "server": "sqs server --reload",
     "sass": "sassc sass-styles/app.scss > styles/styles.css",
-    "watch-sass": "watch \"sassc sass-styles/app.scss > styles/styles.css && echo '---> $(date +%H:%m:%S) updated styles'\" sass-styles/"
+    "watch-sass": "watch \"sassc sass-styles/app.scss > styles/styles.css && echo '---> $(date +%H:%m:%S) updated styles'\" sass-styles/",
+    "sass-server": "browser-sync start --server --files styles/styles.css"
   },
   "repository": {
     "type": "git",

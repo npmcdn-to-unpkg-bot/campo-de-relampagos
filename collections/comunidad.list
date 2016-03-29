@@ -12,7 +12,7 @@
       </div>
       <div class="col col-3">
         <div class="page-description">
-          <span> <i class="fa fa-comment"></i> Comunidad</span>
+          <h5> <i class="fa fa-comment"></i> Comunidad</h5>
           <div class="section-search">
             <h6><i class="fa fa-search"></i><em>Buscar</em></h6>
           </div>
@@ -24,7 +24,7 @@
 {.end}
 
 <div class="section-indexdate">
-  <h3>2016</h3>
+  <h3>C_archivo</h3>
 </div>
 
 <div class="items masonry-grid">
@@ -35,7 +35,7 @@
       <a class="item-medium masonry-item" href="{fullUrl}">
         <div class="item-info">
           <header>
-            <span>{addedOn|date %F}</span><h1>{title}</h1><h2>{author.displayName}</h2>
+            <h5>{addedOn|date %F}</h5><h1>{title}</h1><h2>{author.displayName}</h2>
           </header>
           {excerpt}
         </div>
@@ -43,10 +43,3 @@
     {.end}
   {.end}
 </div>
-
-<a href="/watiswriting-index" class="button-year"><h3>2015</h3></a>
-<a href="/watiswriting-index" class="button-year"><h3>2014</h3></a>
-<a href="/watiswriting-index" class="button-year"><h3>2013</h3></a>
-<a href="/watiswriting-index" class="button-year"><h3>2012</h3></a>
-<a href="/watiswriting-index" class="button-year"><h3>2011</h3></a>
-<a href="/watiswriting-index" class="button-year"><h3>2010</h3></a>
