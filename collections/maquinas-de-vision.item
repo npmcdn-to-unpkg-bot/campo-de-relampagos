@@ -1,6 +1,7 @@
 <section class="video-article">
   {.section item}
     {body}
+    <a href="#" class="fb-share">share on facebook</a>
     <header>
      <h1>{title}</h2>
      <h1>{author.displayName}</h2>

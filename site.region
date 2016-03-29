@@ -45,7 +45,7 @@
               <input placeholder="Buscar" type="text" name="q" />
             </form>
             <a href="mailto:edicion@cr.com"><i class="fa fa-envelope-o"></i></a>
-            <a target="facebook" href="#" class="fb-share"><i class="fa fa-facebook"></i></a>
+            <a target="facebook" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
             <a target="twitter" href="https://twitter.com/" ><i class="fa fa-twitter"></i></a>
           </div>
         </div>
