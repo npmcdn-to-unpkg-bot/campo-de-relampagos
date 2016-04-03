@@ -12,12 +12,13 @@
       <link rel="stylesheet" href="http://localhost:3002/styles/styles.css">
     {.or}
       {squarespace-headers}
-    {.end} 
-    
+    {.end}
+
     <script src="/assets/javascripts/jquery.sticky.js"></script>
     <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
+    {@|apply google-analytics.block}
     <div class="header">
       <div class="logo cdr-container">
         <a href="/"><img style="width: 1000px" src="/assets/images/logotipo/logotipo.png" /></a>
@@ -60,7 +61,7 @@
 
     <div class="cookie-warning">
         <h6>En cumplimiento del Real Decreto-ley 13/2012, solicitamos su permiso para obtener datos estadísticos de su navegación así como en el uso de comentarios en esta web.</h6>
-        <a><b>De acuerdo</b></a> | 
+        <a><b>De acuerdo</b></a> |
         <a href="http://politicadecookies.com" target="politicadecookies" class="info"><em>Más información</em></a>
     </div>
     <script src="/assets/javascripts/site.js"></script>
