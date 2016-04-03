@@ -1,10 +1,10 @@
 {
   "name": "campo-de-relampagos",
   "version": "0.0.0",
-  "description": "",
+  "description": "campo de relampagos",
   "main": "index.js",
   "scripts": {
-    "server": "sqs server --reload",
+    "start": "sqs server --reload",
     "sass": "sassc sass-styles/app.scss > styles/styles.css",
     "watch-sass": "watch \"sassc sass-styles/app.scss > styles/styles.css && echo '---> $(date +%H:%m:%S) updated styles'\" sass-styles/",
     "sass-server": "browser-sync start --server --files styles/styles.css"
