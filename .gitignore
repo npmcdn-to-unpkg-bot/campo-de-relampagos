@@ -2,3 +2,4 @@ sftp-config.json
 .sqs-cache
 bower_components
 .DS_Store
+npm-debug.log
