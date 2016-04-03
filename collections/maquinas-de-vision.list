@@ -23,12 +23,15 @@
       <div class="page-description">
         <h5><i class="fa fa-paragraph"></i> Máquinas de visión</h5>
         <p>Este apartado corresponde a una sección “curada” en la que se muestran obras audiovisuales y con la que se pretende activar el dispositivo propio de las imágenes de nuestro tiempo. Se trata de un espacio de difusión y de reflexión para las imágenes en movimiento, las cuales por sus condiciones técnicas son las que mejor podemos “reproducir” y por lo tanto proponer a los lectores, manteniendo cierta fidelidad.</p>
+        <div class="protocolo">
+          <a href="/protocolo-de-publicacion"><p>Protocolo de publicación</p></a>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<div class="section-indexdate">
+<div class="archivo">
   <h3>mv_archivo</h3>
 </div>
 <div class="items masonry-grid-guttered">

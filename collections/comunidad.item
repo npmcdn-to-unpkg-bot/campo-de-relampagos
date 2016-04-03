@@ -1,13 +1,20 @@
 {.section item}
+  <section>
   <div class="columns">
     <div class="col col-9">
       <div class="comunity-article">
+        <article>
         <header>
-          <h2>{title}</h2>
-          <h3>{author.displayName}</h3>
+          <h1>{title}</h1>
+          <h2>{author.displayName}</h2>
         </header>
-        <h6>{addedOn|date %F}</h6>
+        <div class="date-share">
+          <h6>Publicado el {addedOn|date %F}</h6>
+          <a><h6>{@|apply facebook.block}</h6></a>
+          <a><h6>{@|apply twitter.block}</h6></a>
+        </div>
         {body}
+        </article>
       </div>
       {@|comments}
     </div>
@@ -15,12 +22,16 @@
       <div class="page-description">
         <h5> <i class="fa fa-comment"></i> Comunidad</h5>
         <p>Espacio de reflexión y opinión comprometido con la realidad cultural que a veces se torna compleja. En este espacio habrá textos de opinión, así como un lugar para dar difusión a cartas de adhesión y manifiestos que consideremos importantes y oportunos para apoyar a la comunidad cultural a la que pertenecemos.</p>
+        <div class="protocolo">
+          <a href="/protocolo-de-publicacion"><h6>Protocolo de publicación</h6></a>
+        </div>
       </div>
     </div>
   </div>
+  </section>
 {.end}
 
-<div class="section-indexdate">
+<div class="archivo">
   <h3>c_archivo</h3>
 </div>
 

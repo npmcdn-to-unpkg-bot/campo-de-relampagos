@@ -3,25 +3,6 @@ section {
 	padding-bottom: 80px;
 }
 
-section.section-cr {
-	padding-bottom: 80px;
+.section-border {
 	border-bottom: 1px solid black;
-
-	p {
-		line-height: 24px;
-		letter-spacing: 0.5px;
-		padding-bottom: 24px;
-	}
-
-	h3 { line-height: 38px; }
-	h5 { font-size: 0.8em; }
-}
-
-
-.section-indexdate {
-	margin-top: 24px;
-	margin-bottom: 24px;
-	border-bottom: 1px solid black;
-	h3 { letter-spacing: 2px; }
-
 }

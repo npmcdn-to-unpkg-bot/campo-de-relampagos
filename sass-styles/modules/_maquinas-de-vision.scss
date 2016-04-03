@@ -40,7 +40,7 @@
         position: relative;
         .cover {
           z-index: 1000;
-          background: rgba(255, 191, 206, 0.13);
+          background: rgba(255, 255, 255, 0.1);
           position: absolute;
           top: 0;
           right: 0;
@@ -78,9 +78,7 @@
       }
     }
     .smallprint { color: #696969; }
-    .section-indexdate { color: #B1B1B1; border-bottom: 1px solid #3C3C3C;  }
-    .button-year { color:#3C3C3C; border-bottom: 1px solid #3C3C3C; } 
-    .button-year:hover { color: #B1B1B1; background-color: #212121; }
+    .archivo { color: #B1B1B1; border-bottom: 1px solid #3C3C3C; }
 }
 
 .collection-type-maquinas-de-vision {
@@ -93,6 +91,14 @@
 #search {
   background: #171717;
   border: 1px solid #3C3C3C;
+}
+
+.protocolo {
+  a {color: #B1B1B1; }
+}
+
+.share-button {
+  a {color: #ECE6E6;}
 }
 
 }

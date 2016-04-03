@@ -24,12 +24,12 @@
       </div>
     </div>
     <div class="bar sticky">
-      <div class="cdr-container">
         <div id="main-nav">
           <div class="home">
             <a href="/"><i class="fa fa-home"></i></a>
           </div>
-          <a class="whatiswriting" href="/whatiswriting">Critica&amp;reviews</a>
+          <a class="acerca" href="/acerca">Acerca</a>
+          <a class="whatiswriting" href="/whatiswriting">Critica &amp; reviews</a>
           <a class="maquinas-de-vision" href="/maquinas-de-vision">Máquinas de visión</a>
           <squarespace:query collection="comunidad" limit="1">
             {.repeated section items}
@@ -37,7 +37,6 @@
             {.end}
           </squarespace:query>
           <a class="boletin" href="/">Boletín</a>
-          <a class="acerca" href="/acerca">Acerca</a>
           <div class="media">
             <a href="#" id="search-trigger"><i class="fa fa-search"></i></a>
             <form id="search" action="/search" method="GET">
@@ -48,21 +47,21 @@
             <a target="twitter" href="https://twitter.com/" ><i class="fa fa-twitter"></i></a>
           </div>
         </div>
-      </div>
     </div>
-<!-- <a class="home-cr" href="/">Home</a> -->
     <main>
       <!--Content injection point.-->
       <main id="content" class="content" role="main" data-content-field="main-content">
        {squarespace.main-content}
       </main>
       <div class="smallprint">
-        <h6>soporte@campoderelampagos.org Campo de relámpagos a.C. (cc) 2016-2020.</h6>
+        <h6>©2016 Campo de relámpagos y Artium. Todos los derechos reservados.</h6>
       </div>
     </main>
 
     <div class="cookie-warning">
-      scary warning
+        <h6>En cumplimiento del Real Decreto-ley 13/2012, solicitamos su permiso para obtener datos estadísticos de su navegación así como en el uso de comentarios en esta web.</h6>
+        <a><b>De acuerdo</b></a> | 
+        <a href="http://politicadecookies.com" target="politicadecookies" class="info"><em>Más información</em></a>
     </div>
     <script src="/assets/javascripts/site.js"></script>
   </body>

@@ -32,12 +32,15 @@
       <div class="page-description">
         <h5><i class="fa fa-paragraph"></i> Crítica &amp; Reviews</h5>
         <p>Esta es una sección semanal dedicada a la interpretación del hoy a través del análisis de las prácticas simbólicas, culturales y narrativas. Cada domingo se publica una columna de análisis de nuestro tiempo encauzado desde la consideración crítica de las producciones culturales, que abarca el espectro más amplio (apertura de preocupaciones y entrecruce de perspectivas). Sumamos a esta revisión crítica, recomendaciones de aquellas producciones que creamos merezcan ser atendidas por los lectores.</p>
+        <div class="protocolo">
+          <a href="/protocolo-de-publicacion"><p>Protocolo de publicación</p></a>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<div class="section-indexdate">
+<div class="archivo">
   <h3>c&amp;r_archivo</h3>
 </div>
 

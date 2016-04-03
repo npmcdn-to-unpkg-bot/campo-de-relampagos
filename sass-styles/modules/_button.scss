@@ -1,7 +1,9 @@
 .button {
-	font-family:"acumin-pro";
-	background-color: #EEFFAA;
-	padding: 12px;
+	background-color: #F5FFCE;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
 	letter-spacing: 1px;
 	display: inline-block;
 } 
@@ -9,12 +11,6 @@
 	background-color: #DCFF52;
 }
 
-.button-year {
-	border-bottom: 1px solid #E6E6E6;
-	padding: 12px;
-	display: block;
-} 
-
-.button-year:hover {
-	background-color: #E6E6E6;
+.share-button {
+	display: inline-block;
 }

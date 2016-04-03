@@ -77,9 +77,12 @@
 			</squarespace:query>
 		</div>
 		<div class="col col-2">
-			<img src="http://api.usno.navy.mil/imagery/moon.png" />
-<!-- 			<div class="publicity">
-			</div> -->
+			<div class="publicity">
+				<img src="http://api.usno.navy.mil/imagery/moon.png" />
+				<img src="/assets/images/banner/1.jpg" />
+				<img src="/assets/images/banner/2.jpg" />
+				<img src="/assets/images/banner/3.jpeg" />
+			</div>
 		</div>
 	</div>
 </section>

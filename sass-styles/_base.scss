@@ -1,10 +1,12 @@
 
 h1 {
-	font-size: 60px;
+	font-size: 46px;
+	font-weight: 700;
 }
 
 h2 {
-	font-size: 50px;
+	font-size: 36px;
+	font-weight: 600;
 }
 
 h3 {
@@ -26,17 +28,15 @@ h5 {
 }
 
 h6 {
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	letter-spacing: 0.5px;
+	color: #989898;
 }
 
 p {
 	font-size: 1.1rem;
 	letter-spacing: 0.3px;
-	span {
-	font-size: 1.1rem;
-	letter-spacing: 0.3px;
-	}
+	text-align: justify;
 }
 
 em { font-style: italic; }

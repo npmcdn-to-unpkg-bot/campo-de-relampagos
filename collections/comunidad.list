@@ -17,14 +17,17 @@
             <h6><i class="fa fa-search"></i><em>Buscar</em></h6>
           </div>
           <p>Este apartado corresponde al espacio de opinión editorial sobre lo que atañe a la realidad cultural en el ámbito de nuestra esfera pública. Pensamos que es necesario mantener abierto un espacio de servicio para la reflexión y, en su caso, la solidaridad con aquellas causas que consideramos importantes atender.</p>
+          <div class="protocolo">
+            <a href="/protocolo-de-publicacion"><h6>Protocolo de publicación</h6></a>
+          </div>
         </div>
       </div>
     </div>
   {.end}
 {.end}
 
-<div class="section-indexdate">
-  <h3>C_archivo</h3>
+<div class="archivo">
+  <h3>c_archivo</h3>
 </div>
 
 <div class="items masonry-grid">
