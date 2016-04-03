@@ -282,6 +282,45 @@ blockquote {
 .col-12 {
   width: 100%; }
 
+.comment-header .date {
+  display: none !important; }
+
+.comment-controls {
+  display: none; }
+
+.comment-count:before {
+  content: 'Comentarios'; }
+
+.comment-count span {
+  display: none; }
+
+.preview-comment {
+  color: transparent; }
+
+.preview-comment:before {
+  content: 'Vista previa';
+  color: black;
+  margin-right: -30px; }
+
+.preview-comment {
+  color: transparent; }
+
+.preview-comment:before {
+  content: 'Vista previa';
+  color: black;
+  margin-right: -50px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.comment-btn:before {
+  content: 'Publicar';
+  color: white;
+  margin-right: -120px; }
+
+.comment-btn {
+  color: transparent !important;
+  padding: 14px 50px 14px 5px !important; }
+
 .cookie-warning {
   display: none;
   position: fixed;
