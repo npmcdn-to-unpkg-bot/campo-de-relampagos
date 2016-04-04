@@ -255,8 +255,8 @@ blockquote {
   #boletin form input[type='submit'] {
     font-family: "georgia";
     color: black;
-    padding-top: 10px;
-    padding-bottom: 11px;
+    padding-top: 6px;
+    padding-bottom: 9px;
     padding-left: 14px;
     padding-right: 14px;
     border: none; }
@@ -269,6 +269,21 @@ blockquote {
     text-transform: none; }
   #boletin h2 {
     text-transform: none; }
+
+[data-state='error'] {
+  padding-top: 20px;
+  text-transform: none;
+  color: #F34801; }
+
+[data-state='success'] {
+  padding-top: 20px;
+  text-transform: none;
+  color: #86C100 !important; }
+
+[data-state='already-subscribed'] {
+  padding-top: 20px;
+  text-transform: none;
+  color: #006CE2; }
 
 .button {
   background-color: #F5FFCE;

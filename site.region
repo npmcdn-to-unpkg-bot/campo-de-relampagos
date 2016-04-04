@@ -41,29 +41,37 @@
           <a id="boletin-trigger" href="/">Boletín</a>
           <div id="boletin">
             <h2>domingo festín cr</h2>
-            <h6>Si deseas recibir nuestra publicación semanal de Crítica & Reviews,<br>suscríbete aquí:</h6>
+            <a id="boletin-close">close</a>
 
-            <form data-state="form" action="http://localhost:4567/subscribe?state=success" method="GET">
-              <input placeholder="e-mail" type="text" name="email" />
-              <input type="submit" value="subscribir" />
-            </form>
+
+            <div data-state="form">
+              <h6>Si deseas recibir nuestra publicación semanal de Crítica & Reviews,<br>suscríbete aquí:</h6>
+
+              <form action="http://localhost:4567/subscribe?state=already-subscribed" method="GET">
+                <input placeholder="e-mail" type="text" name="email" />
+                <input type="submit" value="subscribir" />
+              </form>
+            </div>
 
             <div data-state="error">
-              <p>we weren't able to do that</p>
+              <h3>Los sentimos hay un error</h3>
+              <h6>Por favor intenta de nuevo o contacta a <b>soporte@campoderelampagos.org</b></h6>
             </div>
 
             <div data-state="success">
-              <p>You've been subscribed to the campo de relampagos newsletter</p>
+              <h3><i class="fa fa-check"></i> Tu suscripción fue completada con éxito</h3>
             </div>
 
             <div data-state="already-subscribed">
-              <p>You're already subscribed</p>
+              <h3>Esta dirección de e-mail ya se encuentra en nuestra lista.</h3>
+              <h6>Si no has recibido nuestro boletín revisa tu spam o contacta <b>soporte@campoderelampagos.org</b></h6>
             </div>
           </div>
 
           <div class="media">
             <a href="#" id="search-trigger"><i class="fa fa-search"></i></a>
             <form id="search" action="/search" method="GET">
+              <a id="search-close">close</a>
               <input placeholder="Buscar" type="text" name="q" />
             </form>
             <a href="mailto:edicion@cr.com"><i class="fa fa-envelope-o"></i></a>
