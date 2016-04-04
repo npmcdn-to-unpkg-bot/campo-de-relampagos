@@ -1,6 +1,6 @@
 #boletin {
     z-index: 2000;
-    box-sizing: border-box;	
+    box-sizing: border-box;
 	display: none;
 	position: absolute;
 	margin-left: auto;
@@ -8,14 +8,14 @@
 	margin-top: 3px;
     right: 0;
     left: 0;
-    padding: 10px;  
+    padding: 10px;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	background: white;
 	padding: 50px 200px;
 
 	form {
-		input {
+		input[name='email'] {
 			border:none;
 			width: 300px;
 			height: 24px;
@@ -28,21 +28,22 @@
 		    font-size: 16px;
 		    letter-spacing: 2px;
 		    color: black;
-		    background-color: #F1F1F1;		
+		    background-color: #F1F1F1;
 		}
 
-		button {
+		input[type='submit'] {
 			font-family: "georgia";
 			color: black;
 			padding-top: 10px;
 			padding-bottom: 11px;
 			padding-left: 14px;
 			padding-right: 14px;
+			border: none;
 		}
 	}
 
 	img {display: inline-block; width: 15%;}
-	h6 { 
+	h6 {
 		font-size: 0.9rem;
 		color: black;
 		text-transform: none;

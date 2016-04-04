@@ -1,7 +1,8 @@
+//***** masonry *****//
 function setupMasonry() {
 	$('.masonry-grid').masonry({
 	  itemSelector: '.masonry-item'
-	});	
+	});
 	$('.masonry-grid-guttered').masonry({
 	  itemSelector: '.masonry-item',
 	  gutter: 6
@@ -10,53 +11,128 @@ function setupMasonry() {
 
 $(document).ready(setupMasonry);
 
+
+
+//***** typekit *****//
 Typekit.load({
 	async: true,
 	active: setupMasonry,
 	inactive: setupMasonry
 });
 
+
+var boletin = {
+  open: function() {
+    $('#boletin').show();
+    boletin.setState('form');
+    $('#boletin input').focus();
+  },
+
+  close: function() {
+    $('#boletin').hide();
+  },
+
+  setState: function(state) {
+    $('#boletin [data-state]').hide();
+    $('#boletin [data-state="' + state + '"]').show();
+  }
+};
+
+var search = {
+  open: function() {
+    $('#search').show();
+    $('#search input').focus();
+  },
+
+  close: function() {
+    $('#search').hide();
+  }
+}
+
+//***** boletin popover *****//
 $('#boletin-trigger').click(function(e) {
-	$('#search').hide();
-	$('#boletin').toggle();
+  search.close();
+  boletin.open();
 
-	$('#boletin input').focus();
 	e.preventDefault();
 	e.stopPropagation();
 });
 
+$('#boletin').click(function(e) {
+  e.stopPropagation();
+});
+
+//***** search popover *****//
 $('#search-trigger').click(function(e) {
-	$('#boletin').hide();
+	boletin.close();
+  search.open();
 
-	$('#search').toggle();
-	$('#search input').focus();
 	e.preventDefault();
 	e.stopPropagation();
 });
 
-$('body').click(function(e) {
-	$('#boletin').hide();
-	$('#search').hide();
+$('#search').click(function(e) {
+  e.stopPropagation();
 });
 
+//***** popovers *****//
+$('body').click(function(e) {
+	boletin.close();
+	search.close();
+});
+
+
+//***** boletin form *****//
+$(document).ready(function() {
+  $('#boletin form').on('submit', function(event) {
+    event.preventDefault();
+    var url = $('#boletin form').attr('action');
+
+    var email = $('.boletin form[name="email"]').val();
+    var formData = {
+      email: email,
+      list: '1763SI3gyCVbsXBUVLnOLIxA',
+      boolean: true
+    };
+
+    $.post(url, formData).then(function(data) {
+      switch (data) {
+        case '0': return boletin.setState('error');
+        case '1': return boletin.setState('success');
+        case 'Already subscribed.': boletin.setState('already-subscribed');
+      }
+    });
+  });
+});
+
+
+
+//***** sticky nav *****//
 $('.sticky').sticky({ topSpacing: 0 });
 
-$(document).ready(function() {
-    $('.fb-share').click(function(e) {
-        e.preventDefault();
-        var pageUrl = window.location.toString();
-        var url = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(pageUrl);
-        window.open(url, 'fbShareWindow', 'height=450, width=550, top=' + ($(window).height() / 2 - 275) + ', left=' + ($(window).width() / 2 - 225) + ', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
-        return false;
-    });
 
-    $('.twitter-share').click(function(e) {
-    	e.preventDefault();
-    	window.open("https://twitter.com/share", 'twitterShareWindow', 'height=450, width=550, top=' + ($(window).height() / 2 - 275) + ', left=' + ($(window).width() / 2 - 225) + ', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
-    	return false;
-    });
+
+$(document).ready(function() {
+  //***** facebook *****//
+  $('.fb-share').click(function(e) {
+      e.preventDefault();
+      var pageUrl = window.location.toString();
+      var url = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(pageUrl);
+      window.open(url, 'fbShareWindow', 'height=450, width=550, top=' + ($(window).height() / 2 - 275) + ', left=' + ($(window).width() / 2 - 225) + ', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
+      return false;
+  });
+
+  //***** twitter *****//
+  $('.twitter-share').click(function(e) {
+  	e.preventDefault();
+  	window.open("https://twitter.com/share", 'twitterShareWindow', 'height=450, width=550, top=' + ($(window).height() / 2 - 275) + ', left=' + ($(window).width() / 2 - 225) + ', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
+  	return false;
+  });
 });
 
+
+
+//***** cookie warning *****//
 $(document).ready(function () {
 	if (!localStorage.cookiesAccepted) {
 		$('.cookie-warning').show();
@@ -64,6 +140,6 @@ $(document).ready(function () {
 
 	$('.cookie-warning').click(function() {
 		localStorage.cookiesAccepted = true;
-		$('.cookie-warning').slideToggle(200);	
+		$('.cookie-warning').slideToggle(200);
 	});
-}); 
+});

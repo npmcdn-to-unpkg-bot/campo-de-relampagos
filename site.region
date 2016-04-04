@@ -37,16 +37,30 @@
               <a class="comunidad" href="{fullUrl}">Comunidad</a>
             {.end}
           </squarespace:query>
-          <a id="boletin-trigger" href="/">Boletín</a>
-            <div id="boletin">
-              <h2>domingo festín cr</h2>
-              <h6>Si deseas recibir nuestra publicación semanal de Crítica & Reviews,<br>suscríbete aquí:</h6>
 
-              <form  action="/search" method="GET">
-                <input placeholder="e-mail" type="text" name="q" />
-                <button>suscribir</button>
-              </form>
+          <a id="boletin-trigger" href="/">Boletín</a>
+          <div id="boletin">
+            <h2>domingo festín cr</h2>
+            <h6>Si deseas recibir nuestra publicación semanal de Crítica & Reviews,<br>suscríbete aquí:</h6>
+
+            <form data-state="form" action="http://localhost:4567/subscribe?state=success" method="GET">
+              <input placeholder="e-mail" type="text" name="email" />
+              <input type="submit" value="subscribir" />
+            </form>
+
+            <div data-state="error">
+              <p>we weren't able to do that</p>
             </div>
+
+            <div data-state="success">
+              <p>You've been subscribed to the campo de relampagos newsletter</p>
+            </div>
+
+            <div data-state="already-subscribed">
+              <p>You're already subscribed</p>
+            </div>
+          </div>
+
           <div class="media">
             <a href="#" id="search-trigger"><i class="fa fa-search"></i></a>
             <form id="search" action="/search" method="GET">

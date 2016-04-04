@@ -238,7 +238,7 @@ blockquote {
   border-bottom: 1px solid black;
   background: white;
   padding: 50px 200px; }
-  #boletin form input {
+  #boletin form input[name='email'] {
     border: none;
     width: 300px;
     height: 24px;
@@ -252,13 +252,14 @@ blockquote {
     letter-spacing: 2px;
     color: black;
     background-color: #F1F1F1; }
-  #boletin form button {
+  #boletin form input[type='submit'] {
     font-family: "georgia";
     color: black;
     padding-top: 10px;
     padding-bottom: 11px;
     padding-left: 14px;
-    padding-right: 14px; }
+    padding-right: 14px;
+    border: none; }
   #boletin img {
     display: inline-block;
     width: 15%; }
