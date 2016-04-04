@@ -30,7 +30,7 @@
             <a href="/"><i class="fa fa-home"></i></a>
           </div>
           <a class="acerca" href="/acerca">Acerca</a>
-          <a class="whatiswriting" href="/whatiswriting">CrÍtica &amp; reviews</a>
+          <a class="critica-y-reviews" href="/critica-y-reviews">CrÍtica &amp; reviews</a>
           <a class="maquinas-de-vision" href="/maquinas-de-vision">Máquinas de visión</a>
           <squarespace:query collection="comunidad" limit="1">
             {.repeated section items}

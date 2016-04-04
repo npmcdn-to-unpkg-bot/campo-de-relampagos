@@ -39,7 +39,7 @@
 			</squarespace:query>
 		</div>
 		<div class="col col-5">
-			<squarespace:query collection="whatiswriting" limit="1">
+			<squarespace:query collection="critica-y-reviews" limit="1">
 			    {.repeated section items}
 				    <a class="item" href="{fullUrl}">
 		            <div class="cover-wrapper">
