@@ -16,11 +16,27 @@ Typekit.load({
 	inactive: setupMasonry
 });
 
+$('#boletin-trigger').click(function(e) {
+	$('#search').hide();
+	$('#boletin').toggle();
+
+	$('#boletin input').focus();
+	e.preventDefault();
+	e.stopPropagation();
+});
 
 $('#search-trigger').click(function(e) {
+	$('#boletin').hide();
+
 	$('#search').toggle();
 	$('#search input').focus();
 	e.preventDefault();
+	e.stopPropagation();
+});
+
+$('body').click(function(e) {
+	$('#boletin').hide();
+	$('#search').hide();
 });
 
 $('.sticky').sticky({ topSpacing: 0 });

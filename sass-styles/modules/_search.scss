@@ -2,20 +2,22 @@
     z-index: 1000;
     box-sizing: border-box;	
 	display: none;
+	width: 1000px;
 	position: absolute;
+	margin-left: auto;
+	margin-right: auto; 
     right: 0;
     left: 0;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    margin-top: 2px;
+    margin-top: 3px;
+    padding: 6px;
     background: white;
 	border: 1px solid black;
 
 	input {
-		border:none;
 		width: 980px;
+		border:none;
 		height: 24px;
+		padding-left: 6px;
 		outline: none;
 	    border: none;
 	    margin: 0;

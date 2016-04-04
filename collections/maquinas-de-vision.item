@@ -9,8 +9,6 @@
       <div class="col col-9">
         <div class="date-share">
           <h6>Publicado el {addedOn|date %F}</h6>
-          <a><h6>{@|apply facebook.block}</h6></a>
-          <a><h6>{@|apply twitter.block}</h6></a>
         </div>
         <p>{excerpt}</p>
       </div>

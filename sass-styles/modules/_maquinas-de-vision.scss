@@ -1,6 +1,6 @@
 .collection-type-maquinas-de-vision {
     background-color: #171717;
-    color: #CCBDBD;
+    color: #ECE6E6;
     .bar {
       background-color: #171717;
       a.home-cr {
@@ -88,10 +88,6 @@
       background-color: #DADADA !important;
     }
   }
-#search {
-  background: #171717;
-  border: 1px solid #3C3C3C;
-}
 
 .protocolo {
   a {color: #B1B1B1; }
@@ -100,5 +96,30 @@
 .share-button {
   a {color: #ECE6E6;}
 }
+
+#search {
+  background-color: #1F1F1F;
+  border: 1px solid #3C3C3C;
+  input {
+    background-color: #1F1F1F;
+  }
+}
+
+#boletin {
+  border-top: 1px solid #3C3C3C;
+  border-bottom: 1px solid #3C3C3C;
+  background-color: #1F1F1F;
+  h6, h1 { color: #CCBDBD; }
+  form {
+    input {
+      background-color: #5A5A5A;
+    }
+    button {
+      background-color: #8E8E8E;
+      
+    }
+  }
+}
+
 
 }
