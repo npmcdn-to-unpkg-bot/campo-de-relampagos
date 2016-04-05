@@ -24,6 +24,7 @@
         <a href="/"><img style="width: 1000px" src="/assets/images/logotipo/logotipo.png" /></a>
       </div>
     </div>
+
     <div class="bar sticky">
         <div id="main-nav">
           <div class="home">
@@ -45,7 +46,7 @@
 
             <div data-state="form">
               <h6>Si deseas recibir nuestra publicación semanal de Crítica & Reviews,<br>suscríbete aquí:</h6>
-              <form action="http://localhost:4567/subscribe?state=success" method="GET">
+              <form action="https://emailoctopus.com/lists/efc89fa2-fb5c-11e5-ad39-0a4287b2e8c5/members/external-add" method="POST">
                 <input placeholder="e-mail" type="text" name="email" />
                 <input type="submit" value="subscribir" />
               </form>
@@ -58,11 +59,6 @@
 
             <div data-state="success">
               <h3><i class="fa fa-smile-o"></i> Tu suscripción fue completada con éxito</h3>
-            </div>
-
-            <div data-state="already-subscribed">
-              <h3><i class="fa fa-check"></i> Este e-mail ya se encuentra en nuestra lista.</h3>
-              <h6>Si no estás recibiendo nuestro boletín revisa tu spam o contacta <a href="mailto:soporte@campoderelampagos.org"><b>soporte@campoderelampagos.org</b></a></h6>
             </div>
           </div>
 

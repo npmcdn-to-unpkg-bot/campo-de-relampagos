@@ -123,22 +123,19 @@ $('body').click(function(e) {
 $(document).ready(function() {
   $('#boletin form').on('submit', function(event) {
     event.preventDefault();
+
     var url = $('#boletin form').attr('action');
 
-    var email = $('.boletin form[name="email"]').val();
-    var formData = {
-      email: email,
-      list: '1763SI3gyCVbsXBUVLnOLIxA',
-      boolean: true
-    };
+    var email = $.trim($('#boletin input[name="email"]').val());
+    var formData = { emailAddress: email };
 
-    $.post(url, formData).then(function(data) {
-      switch (data) {
-        case '0': return boletin.setState('error');
-        case '1': return boletin.setState('success');
-        case 'Already subscribed.': boletin.setState('already-subscribed');
-      }
-    });
+    $.post(url, formData)
+      .done(function() {
+        boletin.setState('success');
+      })
+      .fail(function() {
+        boletin.setState('error');
+      });
   });
 });
 
