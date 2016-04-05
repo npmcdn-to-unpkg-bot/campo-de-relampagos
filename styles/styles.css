@@ -203,7 +203,7 @@ blockquote {
       padding-top: 12px;
       padding-bottom: 9px; }
     .bar #main-nav a:hover {
-      color: #FF6666; }
+      background-color: #E8F0FF; }
     .bar #main-nav .home {
       display: inline-block; }
       .bar #main-nav .home a {
@@ -224,7 +224,8 @@ blockquote {
         padding-top: 12px;
         padding-bottom: 10px; }
       .bar #main-nav .media a:hover {
-        color: #FF6666; }
+        color: #FF6666;
+        background: none; }
 
 #boletin {
   z-index: 2000;
@@ -474,10 +475,9 @@ blockquote {
     padding-bottom: 5px;
     background-color: white; }
   .item p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1.1rem;
-    font-weight: 500;
-    font-family: "acumin-pro"; }
+    font-weight: 500; }
   .item header {
     padding-bottom: 12px;
     padding-top: 6px; }
@@ -517,15 +517,13 @@ blockquote {
     font-weight: 800;
     letter-spacing: 0.2px; }
   .item-medium h2 {
-    font-size: 1rem;
-    letter-spacing: 0.6px; }
+    font-size: 1rem; }
   .item-medium h5 {
     padding-bottom: 5px; }
   .item-medium p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1.1rem;
-    font-weight: 500;
-    font-family: "acumin-pro"; }
+    font-weight: 500; }
   .item-medium header {
     padding-bottom: 12px;
     padding-top: 6px; }
@@ -561,7 +559,6 @@ blockquote {
     letter-spacing: 0.7px;
     padding-bottom: 10px; }
   .item-small h6 {
-    font-family: "acumin-pro";
     padding-bottom: 5px; }
 
 .item-info {
@@ -590,7 +587,8 @@ blockquote {
       .collection-type-maquinas-de-vision .bar #main-nav a {
         color: #ECE6E6; }
       .collection-type-maquinas-de-vision .bar #main-nav a:hover {
-        color: #FF6666; }
+        color: #FF6666;
+        background: none; }
     .collection-type-maquinas-de-vision .bar .media a:hover {
       color: #FF6666; }
   .collection-type-maquinas-de-vision .item-medium {
@@ -841,18 +839,18 @@ a {
 a:hover {
   cursor: pointer; }
 
-.collection-56dc4206555986f25c6fa0ab #main-nav .critica-y-reviews {
+.collection-56dc4206555986f25c6fa0ab #main-nav .critica-y-reviews, .collection-56dc4206555986f25c6fa0ab #main-nav .critica-y-reviews:hover {
   color: white;
   background-color: #292929; }
 
-.collection-56e5832f7da24f279616f30f #main-nav .acerca {
+.collection-56e5832f7da24f279616f30f #main-nav .acerca, .collection-56e5832f7da24f279616f30f #main-nav .acerca:hover {
   color: white;
   background-color: #292929; }
 
-.collection-56dc40ba20c647a2ce54a40a #main-nav .comunidad {
+.collection-56dc40ba20c647a2ce54a40a #main-nav .comunidad, .collection-56dc40ba20c647a2ce54a40a #main-nav .comunidad:hover {
   color: white;
   background-color: #292929; }
 
-.collection-56e599b320c647b40ef778f8 #main-nav .home a {
+.collection-56e599b320c647b40ef778f8 #main-nav .home a, .collection-56e599b320c647b40ef778f8 #main-nav .home:hover a {
   color: white !important;
   background-color: #292929; }

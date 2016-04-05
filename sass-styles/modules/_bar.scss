@@ -34,7 +34,9 @@
 			padding-bottom: 9px;
 		}
 		a:hover {
-			color: #FF6666;
+			// color: #FF6666;
+			background-color: #E8F0FF;
+			// text-decoration: underline;
 		}
 		.home {
 			display: inline-block;
@@ -60,6 +62,7 @@
 			}
 			a:hover {
 				color: #FF6666;
+				background: none;
 			}
 		}
 	}

@@ -9,10 +9,10 @@
       #main-nav {
         border-bottom: 1px solid #3C3C3C;
         a { color: #ECE6E6; }
-        a:hover { color: #FF6666; } 
+        a:hover { color: #FF6666; background: none; }
       }
       .media {
-        a:hover { 
+        a:hover {
         color: #FF6666;
         }
       }
@@ -31,9 +31,9 @@
     }
 
     .masonry-item { width: 329px; }
-    .item-medium:hover { 
+    .item-medium:hover {
       cursor: pointer;
-      background-color:#1F1F1F; 
+      background-color:#1F1F1F;
       h1 {text-decoration: none;color: white;}
       h2 {text-decoration: none;color: white;}
       .cover-wrapper {
@@ -104,7 +104,7 @@
   border: 1px solid #3C3C3C;
   input {
     background-color: #1F1F1F;
-    color:#CCBDBD; 
+    color:#CCBDBD;
   }
 }
 
@@ -120,7 +120,7 @@
     }
     button {
       background-color: #8E8E8E;
-      
+
     }
   }
 }

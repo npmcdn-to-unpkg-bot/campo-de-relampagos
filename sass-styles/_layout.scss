@@ -1,6 +1,6 @@
 * { box-sizing: border-box; }
 
-body { 
+body {
 	color: black;
 	width: 100%;
 	margin-left: auto;
@@ -16,7 +16,7 @@ main {
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 30px;	
+	padding-top: 30px;
 }
 
 .cdr-container {
@@ -42,7 +42,7 @@ a:hover {
 
 .collection-56dc4206555986f25c6fa0ab {
 	#main-nav {
-		.critica-y-reviews {
+		.critica-y-reviews, .critica-y-reviews:hover {
 			color: white;
 			background-color: #292929;
 		}
@@ -51,7 +51,7 @@ a:hover {
 
 .collection-56e5832f7da24f279616f30f {
 	#main-nav {
-		.acerca {
+		.acerca, .acerca:hover {
 			color: white;
 			background-color: #292929;
 		}
@@ -60,7 +60,7 @@ a:hover {
 
 .collection-56dc40ba20c647a2ce54a40a {
 	#main-nav {
-		.comunidad {
+		.comunidad, .comunidad:hover {
 			color: white;
 			background-color: #292929;
 		}
@@ -69,7 +69,7 @@ a:hover {
 
 .collection-56e599b320c647b40ef778f8 {
 	#main-nav {
-		.home {
+		.home, .home:hover {
 			a {
 			color: white !important;
 			background-color: #292929;
