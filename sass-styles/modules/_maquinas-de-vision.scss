@@ -58,6 +58,8 @@
     }
     .video-article {
       color: #ECE6E6;
+      h1 { letter-spacing: 2px; }
+      h2 { letter-spacing: 1px; font-weight: 100; }
       h5 { font-family:"acumin-pro"; font-size: 0.7em; line-height: 2.5em; text-transform: uppercase; letter-spacing: 3px; }
       header { padding-bottom: 70px; padding-top: 20px; }
       p {
@@ -102,6 +104,7 @@
   border: 1px solid #3C3C3C;
   input {
     background-color: #1F1F1F;
+    color:#CCBDBD; 
   }
 }
 
@@ -109,7 +112,8 @@
   border-top: 1px solid #3C3C3C;
   border-bottom: 1px solid #3C3C3C;
   background-color: #1F1F1F;
-  h6, h1 { color: #CCBDBD; }
+  h1 { color: #CCBDBD; }
+  h6 { color: #CCBDBD; }
   form {
     input {
       background-color: #5A5A5A;

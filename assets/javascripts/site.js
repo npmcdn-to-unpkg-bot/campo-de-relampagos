@@ -25,7 +25,7 @@ var boletin = {
   open: function() {
     $('#boletin').show();
     boletin.setState('form');
-    $('#boletin input').focus();
+    $('#boletin input[name="email"]').focus();
   },
 
   close: function() {

@@ -65,7 +65,7 @@
 			          <div class="cover"></div>
 			        </div>
 				      <div class="item-info">
-			          	<h5><i class="fa fa-external-link"></i> Watishappening {addedOn|date %F}</h5>
+			          	<h5><i class="fa fa-external-link"></i> What is happening? {addedOn|date %F}</h5>
 			          	<header>
 				            <h1>{title}</h1>
 				            <h2>{author.displayName}</h2>

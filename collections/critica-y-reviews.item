@@ -12,10 +12,11 @@
           <a><h6>{@|apply twitter.block}</h6></a>
         </div>
       {body}
+      {@|comments}
     </section>
     <section class="col col-3">
       <div class="whatishappening"> 
-        <h4>What is happening?</h4>
+        <h4><i class="fa fa-external-link"></i> What is happening?</h4>
           <squarespace:query collection="whatishappening" limit="6">
             {.repeated section items}
                 {body}
@@ -25,5 +26,4 @@
     </section>
   </div>
 </article>
-{@|comments}
 {.end}

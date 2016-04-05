@@ -12,7 +12,7 @@
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	background: white;
-	padding: 50px 200px;
+	padding: 70px 200px;
 
 	form {
 		input[name='email'] {
@@ -51,24 +51,35 @@
 	h2 {
 		text-transform: none;
 	}
+
+	#boletin-close {
+		position: absolute;
+		right: 20px;
+		top: 20px;
+	}
 }
+
 
 [data-state='error'] {
 	padding-top: 20px;
 	text-transform: none;
-	color: #F34801;
-
+	h3 { color: #F34801; }
+	h6 { color: #F34801; }
+	a { padding: 0 !important; }
 }
 
 [data-state='success'] {
 	padding-top: 20px;
 	text-transform: none;
-	color: #86C100 !important;
+	h3 { color: #86C100; }
+	h6 { color: #86C100; }
+	a { padding: 0 !important; }
 }
 
 [data-state='already-subscribed'] {
 	padding-top: 20px;
 	text-transform: none;
-	color: #006CE2;
-	
+	h3 {color: #006CE2;}
+	h6 {color: #006CE2;}
+	a { padding: 0 !important; }
 }

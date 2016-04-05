@@ -80,6 +80,7 @@ h4 {
 
 h5 {
   font-size: 0.7rem;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.5px; }
 
@@ -94,7 +95,7 @@ p {
   text-align: justify; }
 
 em {
-  font-style: italic; }
+  font-family: cursive; }
 
 .acerca p {
   font-size: 1rem;
@@ -103,7 +104,8 @@ em {
 
 .acerca em {
   font-style: normal;
-  font-size: 0.9rem; }
+  font-size: 0.9rem;
+  font-family: cursive; }
 
 .acerca header {
   padding-bottom: 40px;
@@ -237,7 +239,7 @@ blockquote {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   background: white;
-  padding: 50px 200px; }
+  padding: 70px 200px; }
   #boletin form input[name='email'] {
     border: none;
     width: 300px;
@@ -269,21 +271,40 @@ blockquote {
     text-transform: none; }
   #boletin h2 {
     text-transform: none; }
+  #boletin #boletin-close {
+    position: absolute;
+    right: 20px;
+    top: 20px; }
 
 [data-state='error'] {
   padding-top: 20px;
-  text-transform: none;
-  color: #F34801; }
+  text-transform: none; }
+  [data-state='error'] h3 {
+    color: #F34801; }
+  [data-state='error'] h6 {
+    color: #F34801; }
+  [data-state='error'] a {
+    padding: 0 !important; }
 
 [data-state='success'] {
   padding-top: 20px;
-  text-transform: none;
-  color: #86C100 !important; }
+  text-transform: none; }
+  [data-state='success'] h3 {
+    color: #86C100; }
+  [data-state='success'] h6 {
+    color: #86C100; }
+  [data-state='success'] a {
+    padding: 0 !important; }
 
 [data-state='already-subscribed'] {
   padding-top: 20px;
-  text-transform: none;
-  color: #006CE2; }
+  text-transform: none; }
+  [data-state='already-subscribed'] h3 {
+    color: #006CE2; }
+  [data-state='already-subscribed'] h6 {
+    color: #006CE2; }
+  [data-state='already-subscribed'] a {
+    padding: 0 !important; }
 
 .button {
   background-color: #F5FFCE;
@@ -441,11 +462,12 @@ blockquote {
   .item h1 {
     font-size: 1.2rem;
     line-height: 1.4rem;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 0.2px; }
   .item h2 {
     font-size: 1rem;
-    letter-spacing: 0.6px; }
+    letter-spacing: 0.6px;
+    font-weight: 100; }
   .item h5 {
     padding-bottom: 5px; }
   .item p {
@@ -611,6 +633,11 @@ blockquote {
       border: 1px solid #3C3C3C; }
   .collection-type-maquinas-de-vision .video-article {
     color: #ECE6E6; }
+    .collection-type-maquinas-de-vision .video-article h1 {
+      letter-spacing: 2px; }
+    .collection-type-maquinas-de-vision .video-article h2 {
+      letter-spacing: 1px;
+      font-weight: 100; }
     .collection-type-maquinas-de-vision .video-article h5 {
       font-family: "acumin-pro";
       font-size: 0.7em;
@@ -654,13 +681,16 @@ blockquote {
   background-color: #1F1F1F;
   border: 1px solid #3C3C3C; }
   .collection-type-maquinas-de-vision #search input {
-    background-color: #1F1F1F; }
+    background-color: #1F1F1F;
+    color: #CCBDBD; }
 
 .collection-type-maquinas-de-vision #boletin {
   border-top: 1px solid #3C3C3C;
   border-bottom: 1px solid #3C3C3C;
   background-color: #1F1F1F; }
-  .collection-type-maquinas-de-vision #boletin h6, .collection-type-maquinas-de-vision #boletin h1 {
+  .collection-type-maquinas-de-vision #boletin h1 {
+    color: #CCBDBD; }
+  .collection-type-maquinas-de-vision #boletin h6 {
     color: #CCBDBD; }
   .collection-type-maquinas-de-vision #boletin form input {
     background-color: #5A5A5A; }
@@ -706,6 +736,10 @@ blockquote {
     font-style: italic;
     font-size: 16px;
     letter-spacing: 2px; }
+  #search #search-close {
+    position: absolute;
+    right: 0;
+    top: -2px; }
 
 section {
   zoom: 1;
@@ -796,7 +830,7 @@ a {
 a:hover {
   cursor: pointer; }
 
-.collection-type-whatiswriting #main-nav .whatiswriting {
+.collection-56dc4206555986f25c6fa0ab #main-nav .critica-y-reviews {
   color: white;
   background-color: #292929; }
 
