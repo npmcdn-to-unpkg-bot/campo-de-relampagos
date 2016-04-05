@@ -95,7 +95,7 @@ p {
   text-align: justify; }
 
 em {
-  font-family: cursive; }
+  font-style: italic; }
 
 .acerca p {
   font-size: 1rem;
@@ -193,7 +193,8 @@ blockquote {
     background-color: white !important; }
   .bar #main-nav {
     position: relative;
-    border-bottom: 1px solid #292929; }
+    border-bottom: 1px solid #292929;
+    padding-right: 20px; }
     .bar #main-nav a {
       display: inline-block;
       font-size: 0.9rem;
@@ -458,7 +459,8 @@ blockquote {
 .item {
   display: block;
   margin-right: 6px;
-  margin-bottom: 6px; }
+  margin-bottom: 75px;
+  border-bottom: 1px solid black; }
   .item h1 {
     font-size: 1.2rem;
     line-height: 1.4rem;
@@ -469,11 +471,11 @@ blockquote {
     letter-spacing: 0.6px;
     font-weight: 100; }
   .item h5 {
-    padding-bottom: 5px; }
+    padding-bottom: 5px;
+    background-color: white; }
   .item p {
     font-size: 0.8rem;
     line-height: 1.1rem;
-    letter-spacing: 0.9px;
     font-weight: 500;
     font-family: "acumin-pro"; }
   .item header {
@@ -493,19 +495,26 @@ blockquote {
     position: relative; }
     .item:hover .cover-wrapper .cover {
       z-index: 1000;
-      background: rgba(255, 255, 255, 0.2);
+      background: rgba(30, 30, 30, 0.2);
       position: absolute;
       top: 0;
       right: 0;
       bottom: 0;
       left: 0; }
 
+.item-info-home {
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  z-index: 2000; }
+
 .item-medium {
   display: block; }
   .item-medium h1 {
     font-size: 1.2rem;
     line-height: 1.4rem;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 0.2px; }
   .item-medium h2 {
     font-size: 1rem;
@@ -515,7 +524,6 @@ blockquote {
   .item-medium p {
     font-size: 0.8rem;
     line-height: 1.1rem;
-    letter-spacing: 0.9px;
     font-weight: 500;
     font-family: "acumin-pro"; }
   .item-medium header {
@@ -557,9 +565,9 @@ blockquote {
     padding-bottom: 5px; }
 
 .item-info {
-  padding-left: 24px;
   padding-right: 24px;
   padding-top: 24px;
+  padding-left: 24px;
   padding-bottom: 24px;
   z-index: 2000; }
 
@@ -768,6 +776,9 @@ span {
 
 .whatishappening {
   padding-left: 100px; }
+
+.publicity {
+  padding-top: 18px; }
 
 .artium-small {
   width: 50%;

@@ -24,6 +24,7 @@
 	#main-nav {
 		position: relative;
 		border-bottom: 1px solid #292929;
+		padding-right: 20px;
 		a {
 			display: inline-block;
 			font-size: 0.9rem;
@@ -57,7 +58,7 @@
 				padding-top: 12px;
 				padding-bottom: 10px;
 			}
-			a:hover { 
+			a:hover {
 				color: #FF6666;
 			}
 		}

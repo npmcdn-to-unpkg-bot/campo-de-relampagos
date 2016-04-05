@@ -4,12 +4,12 @@
 			<squarespace:query collection="maquinas-de-vision" limit="1">
 			    {.repeated section items}
 				    <a class="item" href="{fullUrl}">
+          	<h5><i class="fa fa-play"></i> Máquinas de visión {addedOn|date %F}</h5>
 				    <div class="cover-wrapper">
 			          <img src="{assetUrl}" />
 			          <div class="cover"></div>
 			        </div>
-				      <div class="item-info">
-			          	<h5><i class="fa fa-play"></i> Máquinas de visión {addedOn|date %F}</h5>
+				      <div class="item-info-home">
 			          	<header>
 				            <h1>{title}</h1>
 				            <h2>{author.displayName}</h2>
@@ -18,16 +18,16 @@
 				      </div>
 				    </a>
 			    {.end}
-			</squarespace:query>		
+			</squarespace:query>
 			<squarespace:query collection="comunidad" limit="1">
 			    {.repeated section items}
 				    <a class="item" href="{fullUrl}">
+	          	<h5><i class="fa fa-comment"></i> Comunidad {addedOn|date %F}</h5>
 		            <div class="cover-wrapper">
 			          <img src="{assetUrl}" />
 			          <div class="cover"></div>
 			        </div>
-				      <div class="item-info">
-			          	<h5><i class="fa fa-comment"></i> Comunidad {addedOn|date %F}</h5>
+				      <div class="item-info-home">
 			          	<header>
 				            <h1>{title}</h1>
 				            <h2>{author.displayName}</h2>
@@ -42,12 +42,12 @@
 			<squarespace:query collection="critica-y-reviews" limit="1">
 			    {.repeated section items}
 				    <a class="item" href="{fullUrl}">
+	          	<h5><i class="fa fa-paragraph"></i> Crítica &amp; Reviews {addedOn|date %F}</h5>
 		            <div class="cover-wrapper">
 			          <img src="{assetUrl}" />
 			          <div class="cover"></div>
 			        </div>
-				      <div class="item-info">
-			          	<h5><i class="fa fa-paragraph"></i> Crítica y Reviews {addedOn|date %F}</h5>
+				      <div class="item-info-home">
 			          	<header>
 				            <h1>{title}</h1>
 				            <h2>{author.displayName}</h2>
@@ -60,12 +60,12 @@
 			<squarespace:query collection="whatishappening" limit="1">
 			    {.repeated section items}
 				    <a class="item" target="external-link" href="{fullUrl}">
+	          	<h5><i class="fa fa-external-link"></i> What is happening? {addedOn|date %F}</h5>
 		           	<div class="cover-wrapper">
 			          <img src="{assetUrl}" />
 			          <div class="cover"></div>
 			        </div>
-				      <div class="item-info">
-			          	<h5><i class="fa fa-external-link"></i> What is happening? {addedOn|date %F}</h5>
+				      <div class="item-info-home">
 			          	<header>
 				            <h1>{title}</h1>
 				            <h2>{author.displayName}</h2>
