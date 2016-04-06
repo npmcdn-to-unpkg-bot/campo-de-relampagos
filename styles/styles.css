@@ -203,7 +203,8 @@ blockquote {
       padding-top: 12px;
       padding-bottom: 9px; }
     .bar #main-nav a:hover {
-      background-color: #E8F0FF; }
+      color: #FF6666;
+      background-color: #ECF0F7; }
     .bar #main-nav .home {
       display: inline-block; }
       .bar #main-nav .home a {
@@ -255,20 +256,18 @@ blockquote {
     font-size: 16px;
     letter-spacing: 2px;
     color: black;
-    background-color: #F1F1F1; }
+    background-color: #ECF0F7; }
   #boletin form input[type='submit'] {
     font-family: "georgia";
-    color: black;
     padding-top: 6px;
     padding-bottom: 9px;
     padding-left: 14px;
     padding-right: 14px;
-    border: none; }
-  #boletin img {
-    display: inline-block;
-    width: 15%; }
+    border: none;
+    color: #ECF0F7;
+    background-color: #86C100; }
   #boletin h6 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: black;
     text-transform: none; }
   #boletin h2 {
@@ -277,6 +276,9 @@ blockquote {
     position: absolute;
     right: 20px;
     top: 20px; }
+  #boletin #boletin-close:hover a {
+    color: #FF6666;
+    background-color: none !important; }
 
 [data-state='error'] {
   padding-top: 20px;
@@ -296,16 +298,6 @@ blockquote {
   [data-state='success'] h6 {
     color: #86C100; }
   [data-state='success'] a {
-    padding: 0 !important; }
-
-[data-state='already-subscribed'] {
-  padding-top: 20px;
-  text-transform: none; }
-  [data-state='already-subscribed'] h3 {
-    color: #006CE2; }
-  [data-state='already-subscribed'] h6 {
-    color: #006CE2; }
-  [data-state='already-subscribed'] a {
     padding: 0 !important; }
 
 .button {
@@ -486,7 +478,7 @@ blockquote {
   cursor: pointer; }
 
 .item:hover {
-  background-color: #E8F0FF; }
+  background-color: #ECF0F7; }
   .item:hover h1 {
     text-decoration: underline; }
   .item:hover h2 {
@@ -711,11 +703,13 @@ blockquote {
     letter-spacing: 0.2px; }
   .page-description h5 {
     padding-bottom: 10px; }
-
-.protocolo {
-  margin-top: 10px; }
-  .protocolo a:hover {
-    color: #FF6666; }
+  .page-description .protocolo {
+    margin-top: 10px; }
+    .page-description .protocolo a {
+      color: grey;
+      text-decoration: underline; }
+    .page-description .protocolo a:hover {
+      color: #FF6666; }
 
 #search {
   z-index: 1000;
@@ -773,7 +767,7 @@ span {
   font-family: inherit !important; }
 
 .whatishappening {
-  padding-left: 100px; }
+  padding-left: 90px; }
 
 .publicity {
   padding-top: 18px; }
@@ -839,18 +833,18 @@ a {
 a:hover {
   cursor: pointer; }
 
-.collection-56dc4206555986f25c6fa0ab #main-nav .critica-y-reviews, .collection-56dc4206555986f25c6fa0ab #main-nav .critica-y-reviews:hover {
-  color: white;
+.collection-type-critica-y-reviews #main-nav .critica-y-reviews, .collection-type-critica-y-reviews #main-nav .critica-y-reviews:hover {
+  color: #ECF0F7;
   background-color: #292929; }
 
 .collection-56e5832f7da24f279616f30f #main-nav .acerca, .collection-56e5832f7da24f279616f30f #main-nav .acerca:hover {
-  color: white;
+  color: #ECF0F7;
   background-color: #292929; }
 
 .collection-56dc40ba20c647a2ce54a40a #main-nav .comunidad, .collection-56dc40ba20c647a2ce54a40a #main-nav .comunidad:hover {
-  color: white;
+  color: #ECF0F7;
   background-color: #292929; }
 
 .collection-56e599b320c647b40ef778f8 #main-nav .home a, .collection-56e599b320c647b40ef778f8 #main-nav .home:hover a {
-  color: white !important;
+  color: #ECF0F7 !important;
   background-color: #292929; }

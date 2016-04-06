@@ -45,7 +45,7 @@
             <a id="boletin-close">╳</a>
 
             <div data-state="form">
-              <h6>Si deseas recibir nuestra publicación semanal de Crítica & Reviews,<br>suscríbete aquí:</h6>
+              <h6>Si deseas recibir nuestra publicación semanal de Crítica & Reviews,<br>suscríbete aquí.</h6>
               <form action="https://emailoctopus.com/lists/efc89fa2-fb5c-11e5-ad39-0a4287b2e8c5/members/external-add" method="POST">
                 <input placeholder="e-mail" type="text" name="email" />
                 <input type="submit" value="subscribir" />
@@ -59,6 +59,7 @@
 
             <div data-state="success">
               <h3><i class="fa fa-smile-o"></i> Tu suscripción fue completada con éxito</h3>
+              <h6>Hacemos nuestro envío cada domingo. Gracias por formar parte de la comunidad de Campo de relámpagos.</h6>
             </div>
           </div>
 
