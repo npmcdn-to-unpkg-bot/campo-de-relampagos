@@ -18,7 +18,6 @@
     <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
-    {@|apply google-analytics.block}
     <div class="header">
       <div class="logo cdr-container">
         <a href="/"><img style="width: 1000px" src="/assets/images/logotipo/logotipo.png" /></a>
